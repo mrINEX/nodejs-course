@@ -1,4 +1,4 @@
-function checkArgc(argv) {
+function checkArgv(argv) {
   const a = argv.indexOf('-a');
   const action = argv.indexOf('--action');
   let resultAction;
@@ -27,7 +27,6 @@ function checkArgc(argv) {
   } else if (input !== -1) {
     resultInput = argv[input + 1];
   } else {
-    console.log('else input');
     resultInput = 'input.txt';
   }
 
@@ -39,7 +38,6 @@ function checkArgc(argv) {
   } else if (output !== -1) {
     resultOutput = argv[output + 1];
   } else {
-    console.log('else output');
     resultOutput = 'output.txt';
   }
 
@@ -52,5 +50,5 @@ function checkArgc(argv) {
 }
 
 module.exports = {
-  checkArgc
+  checkArgv
 };

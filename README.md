@@ -23,9 +23,10 @@ npm install
 cd caesar_cli
 
 node caesar
+node caesar --action encode --shift 7
 ```
 
-# CLI tool should accept 4 options (short alias and full name):
+# CLI tool accept 4 options (short alias and full name):
 
 1.  **-s, --shift**: a shift
 2.  **-i, --input**: an input file

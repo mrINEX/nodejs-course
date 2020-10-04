@@ -1,9 +1,9 @@
 const { encode } = require('./encode');
 const { decode } = require('./decode');
-const { checkArgc } = require('./checkArgv');
+const { checkArgv } = require('./checkArgv');
 
 const fs = require('fs');
-const { action, shift, input, output } = checkArgc(process.argv);
+const { action, shift, input, output } = checkArgv(process.argv);
 
 if (action || shift) {
   fs.readFile(input, 'utf8', (error, data) => {
