@@ -35,6 +35,7 @@ node caesar --action encode --shift 7
 2.  **-i, --input**: an input file
 3.  **-o, --output**: an output file
 4.  **-a, --action**: an action encode/decode
+5.  **Ctrl+C** press for exit with **stdin** as an input source
 
 **Usage example:**
 
