@@ -18,7 +18,10 @@ if (input === 'stdin') {
   });
 } else {
   fs.readFile(input, 'utf8', (error, data) => {
-    if (error) console.error('Error:', error);
+    if (error) {
+      console.error('Error:', 'an input file not found');
+      throw new Error('an input file not found');
+    }
 
     const cipher = cipherRun(action, data, shift);
 

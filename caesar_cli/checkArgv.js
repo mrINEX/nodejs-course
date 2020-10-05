@@ -32,6 +32,8 @@ function checkArgv(argv) {
     resultInput = argv[i + 1] ? argv[i + 1] : 'stdin';
   } else if (input !== -1) {
     resultInput = argv[input + 1] ? argv[input + 1] : 'stdin';
+  } else {
+    resultInput = 'stdin';
   }
   if (/^-/.test(resultInput)) {
     resultInput = 'stdin';
@@ -44,6 +46,8 @@ function checkArgv(argv) {
     resultOutput = argv[o + 1] ? argv[o + 1] : 'stdout';
   } else if (output !== -1) {
     resultOutput = argv[output + 1] ? argv[output + 1] : 'stdout';
+  } else {
+    resultOutput = 'stdout';
   }
   if (/^-/.test(resultOutput)) {
     resultOutput = 'stdout';
