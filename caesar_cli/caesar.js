@@ -1,26 +1,23 @@
-const { encode } = require('./encode');
-const { decode } = require('./decode');
+const { cipherRun } = require('./cipher');
 const { checkArgv } = require('./checkArgv');
 
 const fs = require('fs');
 const { action, shift, input, output } = checkArgv(process.argv);
+console.log(action, shift, input, output);
 
-if (action || shift) {
-  fs.readFile(input, 'utf8', (error, data) => {
-    if (error) throw error;
+fs.readFile(input, 'utf8', (error, data) => {
+  if (error) console.error('Error:', error);
 
-    let cipher;
-    if (action === 'encode') {
-      cipher = encode(data, shift);
-    }
-    if (action === 'decode') {
-      cipher = decode(data, shift);
-    }
+  const cipher = cipherRun(action, data, shift);
 
-    fs.appendFile(output, cipher, err => {
-      if (err) throw err;
-    });
+  fs.appendFile(output, cipher, err => {
+    if (err) console.error('Error:', err);
   });
-} else {
-  throw 'Action (-a, --action: an action encode/decode) and the shift (-s, --shift: a shift) are required.';
-}
+});
+
+// process.stdin.on('readable', () => {
+//   const chunk = process.stdin.read();
+//   if (chunk !== null) {
+//     process.stdout.write(`data: ${chunk}`);
+//   }
+// });
