@@ -12,7 +12,10 @@ if (input === 'stdin') {
       process.stdout.write(`stdout: ${cipher}`);
     } else {
       fs.appendFile(output, cipher, err => {
-        if (err) console.error('Error:', err);
+        if (err) {
+          console.error('Error:', 'an output file not found');
+          throw new Error('an output file not found');
+        }
       });
     }
     chunk = process.stdin.read();
@@ -30,7 +33,10 @@ if (input === 'stdin') {
       process.stdout.write(`stdout: ${cipher}`);
     } else {
       fs.appendFile(output, cipher, err => {
-        if (err) console.error('Error:', err);
+        if (err) {
+          console.error('Error:', 'an output file not found');
+          throw new Error('an output file not found');
+        }
       });
     }
   });
