@@ -1,9 +1,8 @@
-const { cipherRun } = require('./cipher');
+const { cipherRun } = require('./transform');
 const { checkArgv } = require('./checkArgv');
 
 const fs = require('fs');
 const { action, shift, input, output } = checkArgv(process.argv);
-console.log(action, shift, input, output);
 
 if (input === 'stdin') {
   process.stdin.on('readable', () => {
@@ -32,10 +31,3 @@ if (input === 'stdin') {
     }
   });
 }
-
-// process.stdin.on('readable', () => {
-//   const chunk = process.stdin.read();
-//   if (chunk !== null) {
-//     process.stdout.write(`data: ${chunk}`);
-//   }
-// });
