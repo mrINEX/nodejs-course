@@ -6,7 +6,7 @@ const { action, shift, input, output } = checkArgv(process.argv);
 
 if (input === 'stdin') {
   process.stdin.on('readable', () => {
-    const chunk = process.stdin.read();
+    let chunk = process.stdin.read();
     const cipher = cipherRun(action, chunk.toString(), shift);
     if (output === 'stdout') {
       process.stdout.write(`stdout: ${cipher}`);
@@ -15,6 +15,7 @@ if (input === 'stdin') {
         if (err) console.error('Error:', err);
       });
     }
+    chunk = process.stdin.read();
   });
 } else {
   fs.readFile(input, 'utf8', (error, data) => {

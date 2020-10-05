@@ -20,9 +20,12 @@ npm install
 ## Running application
 
 ```
+git checkout master
+
 cd caesar_cli
 
 node caesar
+
 node caesar --action encode --shift 7
 ```
 
