@@ -15,9 +15,6 @@ app.use('/', (req, res, next) => {
   if (req.originalUrl === '/') {
     res.send('Service is running!');
     return;
-  } else if (req.originalUrl === '/caesar') {
-    res.send('caesar');
-    return;
   }
   next();
 });
