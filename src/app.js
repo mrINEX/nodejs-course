@@ -2,8 +2,9 @@ const express = require('express');
 const swaggerUI = require('swagger-ui-express');
 const path = require('path');
 const YAML = require('yamljs');
+
 const userRouter = require('./resources/users/user.router');
-// const tasksRouter = require('./resources/tasks/tasks.router');
+const tasksRouter = require('./resources/tasks/tasks.router');
 const boardRouter = require('./resources/board/board.router');
 
 const app = express();
@@ -25,9 +26,6 @@ app.use('/users', userRouter);
 
 app.use('/boards', boardRouter);
 
-app.use((err, req, res) => {
-  console.error(err.stack);
-  res.status(404).send('--------------------end-------------------');
-});
+boardRouter.use('/:id/tasks', tasksRouter);
 
 module.exports = app;
