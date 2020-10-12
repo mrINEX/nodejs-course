@@ -14,45 +14,27 @@ git clone {repository URL}
 ## Installing NPM modules
 
 ```
+git checkout Express-REST-service_task2
+
 npm install
 ```
 
 ## Running application
 
 ```
-git checkout master
+npm start
 
-cd caesar_cli
+Ctrl+Shift+`
 
-node caesar
-
-node caesar --action encode --shift 7
+npm test
 ```
 
-# CLI tool accept 4 options (short alias and full name):
+Минимальная оценка за таску не может быть меньше 0.
+Максимально возможная оценка: 170 баллов - 1 пункт, 10 баллов - 3 пункт, 10 баллов - 4 пункт, 10 баллов - 5 пункт, итого: 200 баллов.
 
-1.  **-s, --shift**: a shift
-2.  **-i, --input**: an input file
-3.  **-o, --output**: an output file
-4.  **-a, --action**: an action encode/decode
-5.  **Ctrl+C** press for exit with **stdin** as an input source
-
-**Usage example:**
-
-```bash
-$ node caesar -a encode -s 7 -i "./input.txt" -o "./output.txt"
-```
-
-```bash
-$ node caesar --action encode --shift 7 --input plain.txt --output encoded.txt
-```
-
-```bash
-$ node caesar --action decode --shift 7 --input decoded.txt --output plain.txt
-```
-
-> input.txt
-> `This is secret. Message about "_" symbol!`
-
-> output.txt
-> `Aopz pz zljyla. Tlzzhnl hivba "_" zftivs!`
+1. каждый успешный тест при выполнении скрипта `npm run test` +10 баллов.
+2. в тестах не должно быть исправлений, за исключением обновлений из [репозитория RS School](https://github.com/rolling-scopes-school/nodejs-course-template/tree/master). Если есть другие изменения в файлах с тестами, за каждый исправленный тест минус 10 баллов.
+3. код приложения, работающий с сущностью user разделен по модулям в соответствии с его назначением (к примеру: работа с запросом и ответом в *.router.js, бизнес-логика в *.service.js, работа с хранилищем данных в *.repository.js и т.п.) + 10 баллов
+4. аналогично пункту 3 для boards +10 баллов
+5. аналогично пункту 3 для tasks + 10 баллов
+6. каждый коммит после дедлайна минус 10 баллов.
