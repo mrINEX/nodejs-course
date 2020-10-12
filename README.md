@@ -20,7 +20,7 @@ npm install
 ## Running application
 
 ```
-git checkout master
+git checkout Caesar-cipher-CLI-tool_task1
 
 cd caesar_cli
 
