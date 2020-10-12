@@ -1,8 +1,9 @@
+const boardsAndTasks = require('../tasks/tasks.service');
 const memoryUsers = [];
 
 const getAll = async () => memoryUsers;
 
-const get = async id => memoryUsers.filter(user => user.id === id);
+const get = async id => memoryUsers.filter(el => el.id === id)[0];
 
 const create = async user => {
   memoryUsers.push(user);
@@ -12,10 +13,26 @@ const create = async user => {
 const update = async (id, user) => {
   memoryUsers.map(elem => {
     if (elem.id === id) {
-      return Object.assign(elem, user);
+      Object.assign(elem, user);
     }
   });
-  return get(user.id);
+  return get(id);
 };
 
-module.exports = { getAll, create, get, update };
+const remove = async id => {
+  const user = memoryUsers.map((el, index) => {
+    if (id === el.id) {
+      memoryUsers.splice(index, 1);
+    }
+  });
+
+  const arr = await boardsAndTasks.getAll();
+  arr.map(el => {
+    if (id === el.userId) {
+      el.userId = null;
+    }
+  });
+  return user;
+};
+
+module.exports = { getAll, create, get, update, remove };
