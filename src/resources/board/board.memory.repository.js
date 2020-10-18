@@ -6,7 +6,7 @@ const getAll = async () => memoryBoards;
 const get = async id => {
   const board = memoryBoards.filter(el => el.id === id)[0];
   if (!board) {
-    throw new Error('sdf');
+    throw new Error('not found for get id');
   }
   return board;
 };

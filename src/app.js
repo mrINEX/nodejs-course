@@ -28,4 +28,13 @@ app.use('/boards', boardRouter);
 
 boardRouter.use('/:id/tasks', tasksRouter);
 
+process.on('uncaughtException', err => {
+  console.log(`Caught exception: ${err}`);
+});
+
+process.on('unhandledRejection', (reason, p) => {
+  console.log('Unhandled Rejection at: Promise', p, 'reason:', reason);
+  // тут прописываются заданные логи приложения, выпадение ошибки или другая логика
+});
+
 module.exports = app;
