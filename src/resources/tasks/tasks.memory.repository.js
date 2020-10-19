@@ -5,7 +5,7 @@ const getAll = async () => memoryTasks;
 const get = async id => {
   const board = memoryTasks.filter(el => el.id === id)[0];
   if (!board) {
-    throw new Error('sdf');
+    throw new Error(`not found task for ${id}`);
   }
   return board;
 };

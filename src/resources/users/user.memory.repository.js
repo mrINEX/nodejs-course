@@ -3,7 +3,13 @@ const memoryUsers = [];
 
 const getAll = async () => memoryUsers;
 
-const get = async id => memoryUsers.filter(el => el.id === id)[0];
+const get = async id => {
+  const user = memoryUsers.filter(el => el.id === id)[0];
+  if (!user) {
+    throw new Error(`not found user for ${id}`);
+  }
+  return user;
+};
 
 const create = async user => {
   memoryUsers.push(user);
