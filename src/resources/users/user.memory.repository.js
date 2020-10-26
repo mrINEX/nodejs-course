@@ -1,5 +1,18 @@
 const boardsAndTasks = require('../tasks/tasks.service');
+const { MONGO_CONNECTION_STRING } = require('../../common/config');
 const memoryUsers = [];
+
+// ------------------------------------------------
+const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
+// установка схемы
+const userScheme = new Schema({
+  id: String,
+  name: String,
+  login: String
+});
+const User = mongoose.model('User', userScheme);
+// ------------------------------------------------------
 
 const getAll = async () => memoryUsers;
 
@@ -11,9 +24,25 @@ const get = async id => {
   return user;
 };
 
-const create = async user => {
-  memoryUsers.push(user);
-  return get(user.id);
+const create = async inputUser => {
+  // memoryUsers.push(user);
+  // return get(user.id);
+
+  const user = new User(inputUser);
+  // подключение
+  mongoose.connect(MONGO_CONNECTION_STRING, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true
+  });
+  user.save
+    .then(doc => {
+      console.log('Сохранен объект', doc);
+      mongoose.disconnect(); // отключение от базы данных
+    })
+    .catch(err => {
+      console.log('Error: ', err);
+      mongoose.disconnect();
+    });
 };
 
 const update = async (id, user) => {

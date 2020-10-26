@@ -12,3 +12,35 @@ Error: not found task for 006b7ba2-2626-49bc-bb66-85d40b18e427
 
 Error: not found task for 9b4cafa6-c8d6-44eb-962b-9a68afc4b992
 
+TypeError: Cannot destructure property `id` of 'undefined' or 'null'.
+
+TypeError: Cannot destructure property `id` of 'undefined' or 'null'.
+
+TypeError: Cannot destructure property `id` of 'undefined' or 'null'.
+
+Error: not found user for undefined
+
+TypeError: Cannot destructure property `id` of 'undefined' or 'null'.
+
+TypeError: Cannot destructure property `id` of 'undefined' or 'null'.
+
+Error: not found board for 76f22a1d-d453-4f17-b21e-6d1e6f4857a9
+
+Error: not found task for b21b330f-8e1c-45a2-927f-f2954c38776f
+
+Error: not found task for ff661605-0aeb-4f35-9c4c-501da8315823
+
+Error: not found task for 22ee0d78-7134-4b4c-b029-c5abb46fc9db
+
+Error: not found task for 71e7a8a7-50a4-426a-ba27-6288b40dacf8
+
+Error: not found task for 44edf6be-44e5-461d-bd30-4dda0ae701da
+
+Error: not found task for deef4eb2-885e-4baf-b205-a34c57717fed
+
+TypeError: user.save.then is not a function
+
+TypeError: Cannot destructure property `id` of 'undefined' or 'null'.
+
+TypeError: user.save.then is not a function
+
