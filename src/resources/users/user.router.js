@@ -6,6 +6,7 @@ const { handling } = require('../../common/handling');
 router.route('/').get(
   handling(async (req, res) => {
     const users = await usersService.getAll();
+    console.log('[route] get all users: ', users);
     res.status(200).send(users.map(User.toResponse));
   })
 );
@@ -13,6 +14,7 @@ router.route('/').get(
 router.route('/:id').get(
   handling(async (req, res) => {
     const user = await usersService.get(req.params.id);
+    console.log('[route] get user: ', user);
     res.status(200).send(user);
   })
 );
@@ -20,21 +22,24 @@ router.route('/:id').get(
 router.route('/').post(
   handling(async (req, res) => {
     const user = await usersService.create(new User(req.body));
-    res.status(200).send(User.toResponse(user));
+    console.log('[route] post user: ', user);
+    res.status(200).send(user);
   })
 );
 
 router.route('/:id').put(
   handling(async (req, res) => {
     const user = await usersService.update(req.params.id, req.body);
-    res.status(200).send(User.toResponse(user));
+    console.log('[route] put user: ', user);
+    res.status(200).send(user);
   })
 );
 
 router.route('/:id').delete(
   handling(async (req, res) => {
     const user = await usersService.remove(req.params.id);
-    res.status(200).send(User.toResponse(user));
+    console.log('[route] delete user: ', user);
+    res.status(200).send(user);
   })
 );
 
