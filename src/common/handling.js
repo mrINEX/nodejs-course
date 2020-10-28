@@ -37,33 +37,7 @@ function handling(fn) {
   };
 }
 
-function handlingLast(err, req, res, next) {
-  console.error('Internal Server Error');
-  const template = `Internal Server Error: ${err}\n\n`;
-
-  recordError(template);
-
-  res.status(500).send('Internal Server Error');
-  next();
-}
-
-process.on('uncaughtException', err => {
-  const template = `Uncaught Exception at: ${err}\n\n`;
-
-  recordError(template);
-
-  console.log(`Uncaught Exception at: ${err}`);
-});
-
-process.on('unhandledRejection', reason => {
-  const template = `Unhandled Rejection at: '${reason}\n\n`;
-
-  recordError(template);
-
-  console.log('Unhandled Rejection at: ', reason.name, reason.message);
-});
-
 module.exports = {
   handling,
-  handlingLast
+  recordError
 };
