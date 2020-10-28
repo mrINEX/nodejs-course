@@ -1,45 +1,38 @@
-const memoryBoards = [];
-const tasks = require('../tasks/tasks.service');
+const Board = require('./board.model');
+const Task = require('../tasks/tasks.model');
 
-const getAll = async () => memoryBoards;
+const getAll = async () => {
+  return Board.find({});
+};
 
 const get = async id => {
-  const board = memoryBoards.filter(el => el.id === id)[0];
-  if (!board) {
-    throw new Error(`not found board for ${id}`);
-  }
+  const board = await Board.findOne({ id }).exec();
+  if (!board) throw new Error(`does not exist board: ${id}`);
   return board;
 };
 
-const create = async user => {
-  memoryBoards.push(user);
-  return get(user.id);
+const create = async body => {
+  const board = await Board.create(body);
+  if (!board) throw new Error('was not created');
+  return board;
 };
 
-const update = async (id, user) => {
-  memoryBoards.map(elem => {
-    if (elem.id === id) {
-      Object.assign(elem, user);
-    }
-  });
+const update = async (id, body) => {
+  const res = await Board.updateOne({ id }, body);
+  if (!res.ok) throw new Error('board was not update');
   return get(id);
 };
 
 const remove = async id => {
-  memoryBoards.map((el, index) => {
-    if (id === el.id) {
-      memoryBoards.splice(index, 1);
-    }
-  });
+  const resT = await Task.deleteOne({ boardId: id });
+  const res = await Board.deleteOne({ id });
+  console.log('BOARD - Task delete:', resT);
+  console.log('BOARD - Board delete:', res);
 
-  const arr = await tasks.getAll();
-  for (let i = 0; i < arr.length; i += 1) {
-    if (id === arr[i].boardId) {
-      arr.splice(i, 1);
-      i -= 1;
-    }
-  }
-  return;
+  if (!res.deletedCount) throw new Error('board was not delete');
+  // if (!resT.deletedCount) throw new Error('task was not delete');
+
+  return res;
 };
 
 module.exports = { getAll, get, create, update, remove };

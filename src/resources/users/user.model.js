@@ -3,7 +3,7 @@ const uuid = require('uuid');
 
 const userScheme = new mongoose.Schema(
   {
-    _id: {
+    id: {
       type: String,
       default: uuid
     },
@@ -15,8 +15,8 @@ const userScheme = new mongoose.Schema(
 );
 
 userScheme.static('toResponse', user => {
-  const { _id, name, login } = user;
-  return { _id, name, login };
+  const { _id, id, name, login } = user;
+  return { _id, id, name, login };
 });
 
 const User = mongoose.model('User', userScheme);

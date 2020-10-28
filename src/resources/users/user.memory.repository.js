@@ -1,47 +1,31 @@
-// const boardsAndTasks = require('../tasks/tasks.service');
 const User = require('./user.model');
+const Task = require('../tasks/tasks.model');
 
 const getAll = async () => {
   return User.find({});
 };
 
 const get = async id => {
-  const user = await User.findOne({ _id: id }).exec();
-  console.log('USER [get id]:', user, typeof user);
-  if (!user) throw new Error(`does not exist user: ${id}`);
-  return user;
+  return User.findOne({ id });
 };
 
 const create = async body => {
-  const user = await User.create(body);
-  console.log('USER: [create]', user, typeof user);
-  if (!user) throw new Error('was not created');
-  return user;
+  return User.create(body);
 };
 
 const update = async (id, body) => {
-  const res = await User.updateOne({ _id: id }, body);
-  if (!res.ok) throw new Error('was not update');
-  return get(id);
+  return User.updateOne({ id }, body);
 };
 
 const remove = async id => {
-  const res = await User.deleteOne({ _id: id });
-  if (!res.ok) throw new Error('was not delete');
-  return res.ok;
-  // const user = memoryUsers.map((el, index) => {
-  //   if (id === el.id) {
-  //     memoryUsers.splice(index, 1);
-  //   }
-  // });
+  const resT = await Task.updateOne({ userId: id }, { userId: null });
+  const res = await User.deleteOne({ id });
+  console.log('USER - Task update:', resT);
+  console.log('USER - Board delete:', res);
 
-  // const arr = await boardsAndTasks.getAll();
-  // arr.map(el => {
-  //   if (id === el.userId) {
-  //     el.userId = null;
-  //   }
-  // });
-  // return user;
+  if (!res.deletedCount) throw new Error('user was not deleted');
+  // if (!resT.nModified) throw new Error('user`s tasks was not update');
+  return res;
 };
 
 module.exports = { getAll, create, get, update, remove };

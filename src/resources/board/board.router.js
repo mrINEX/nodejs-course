@@ -1,5 +1,4 @@
 const router = require('express').Router();
-const Board = require('./board.model');
 const boardsService = require('./board.service');
 const { handling } = require('../../common/handling');
 
@@ -19,7 +18,7 @@ router.route('/:id').get(
 
 router.route('/').post(
   handling(async (req, res) => {
-    const board = await boardsService.create(new Board(req.body));
+    const board = await boardsService.create(req.body);
     res.status(200).send(board);
   })
 );
@@ -35,6 +34,11 @@ router.route('/:id').delete(
   handling(async (req, res) => {
     const board = await boardsService.remove(req.params.id);
     res.status(200).send(board);
+    // if (!board.deletedCount) {
+    //   res.sendStatus(404);
+    // } else {
+    //   res.status(200).send(board);
+    // }
   })
 );
 

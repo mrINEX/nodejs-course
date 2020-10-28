@@ -1,36 +1,31 @@
-const memoryTasks = [];
+const Task = require('./tasks.model');
 
-const getAll = async () => memoryTasks;
+const getAll = async () => {
+  return Task.find({});
+};
 
 const get = async id => {
-  const board = memoryTasks.filter(el => el.id === id)[0];
-  if (!board) {
-    throw new Error(`not found task for ${id}`);
-  }
-  return board;
+  const task = await Task.findOne({ id }).exec();
+  if (!task) throw new Error(`does not exist task: ${id}`);
+  return task;
 };
 
-const create = async user => {
-  memoryTasks.push(user);
-  return get(user.id);
+const create = async body => {
+  const task = await Task.create(body);
+  if (!task) throw new Error('task was not created');
+  return task;
 };
 
-const update = async (id, user) => {
-  memoryTasks.map(elem => {
-    if (elem.id === id) {
-      Object.assign(elem, user);
-    }
-  });
+const update = async (id, body) => {
+  const res = await Task.updateOne({ id }, body);
+  if (!res.ok) throw new Error('task was not update');
   return get(id);
 };
 
 const remove = async id => {
-  memoryTasks.map((el, index) => {
-    if (id === el.id) {
-      memoryTasks.splice(index, 1);
-    }
-  });
-  return;
+  const res = await Task.deleteOne({ id });
+  if (!res.ok) throw new Error('task was not delete');
+  return 'success';
 };
 
 module.exports = { getAll, create, get, update, remove };

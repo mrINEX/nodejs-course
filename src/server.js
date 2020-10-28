@@ -5,7 +5,7 @@ const app = require('./app');
 
 connectToDB(() => {
   app.listen(PORT, () =>
-    console.log(`App is running on http://localhost:${PORT} |||| ${new Date()}`)
+    console.log(`App is running on http://localhost:${PORT} ---- ${new Date()}`)
   );
 
   process.on('uncaughtException', err => {

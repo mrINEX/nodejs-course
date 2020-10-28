@@ -1,6 +1,5 @@
 const express = require('express');
 const router = express.Router({ mergeParams: true });
-const Task = require('./tasks.model');
 const tasksService = require('./tasks.service');
 const { handling } = require('../../common/handling');
 
@@ -13,9 +12,10 @@ router.route('/').get(
 
 router.route('/').post(
   handling(async (req, res) => {
-    const task = await tasksService.create(
-      new Task({ ...req.body, boardId: req.params.id })
-    );
+    const task = await tasksService.create({
+      ...req.body,
+      boardId: req.params.id
+    });
     res.status(200).send(task);
   })
 );
