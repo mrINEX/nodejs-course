@@ -18,13 +18,10 @@ const update = async (id, body) => {
 };
 
 const remove = async id => {
-  const resT = await Task.updateOne({ userId: id }, { userId: null });
   const res = await User.deleteOne({ id });
-  console.log('USER - Task update:', resT);
-  console.log('USER - Board delete:', res);
-
   if (!res.deletedCount) throw new Error('user was not deleted');
-  // if (!resT.nModified) throw new Error('user`s tasks was not update');
+
+  await Task.updateOne({ userId: id }, { userId: null });
   return res;
 };
 

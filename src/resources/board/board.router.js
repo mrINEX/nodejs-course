@@ -33,12 +33,12 @@ router.route('/:id').put(
 router.route('/:id').delete(
   handling(async (req, res) => {
     const board = await boardsService.remove(req.params.id);
-    res.status(200).send(board);
-    // if (!board.deletedCount) {
-    //   res.sendStatus(404);
-    // } else {
-    //   res.status(200).send(board);
-    // }
+    // res.status(200).send(board);
+    if (!board.deletedCount) {
+      res.sendStatus(404);
+    } else {
+      res.status(200).send(board);
+    }
   })
 );
 

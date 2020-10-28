@@ -24,14 +24,10 @@ const update = async (id, body) => {
 };
 
 const remove = async id => {
-  const resT = await Task.deleteOne({ boardId: id });
   const res = await Board.deleteOne({ id });
-  console.log('BOARD - Task delete:', resT);
-  console.log('BOARD - Board delete:', res);
-
   if (!res.deletedCount) throw new Error('board was not delete');
-  // if (!resT.deletedCount) throw new Error('task was not delete');
 
+  await Task.deleteOne({ boardId: id });
   return res;
 };
 
