@@ -4641,3 +4641,3186 @@ params: {
 }
 body: {}
 
+time: Wed Oct 28 2020 23:46:08 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/users
+method: GET
+query: {}
+params: {}
+body: {}
+
+time: Wed Oct 28 2020 23:46:08 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards
+method: POST
+query: {}
+params: {}
+body: {
+  "title": "Autotest board",
+  "columns": [
+    {
+      "title": "Backlog",
+      "order": 1
+    },
+    {
+      "title": "Sprint",
+      "order": 2
+    }
+  ]
+}
+
+time: Wed Oct 28 2020 23:46:09 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards
+method: POST
+query: {}
+params: {}
+body: {
+  "title": "Autotest board",
+  "columns": [
+    {
+      "title": "Backlog",
+      "order": 1
+    },
+    {
+      "title": "Sprint",
+      "order": 2
+    }
+  ]
+}
+
+time: Wed Oct 28 2020 23:46:09 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/users
+method: POST
+query: {}
+params: {}
+body: {
+  "name": "TEST_USER",
+  "login": "test_user",
+  "password": "T35t_P@55w0rd"
+}
+
+time: Wed Oct 28 2020 23:46:09 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/8bb5dfc4-657b-4635-97af-740aa200f3a3/tasks
+method: POST
+query: {}
+params: {
+  "id": "8bb5dfc4-657b-4635-97af-740aa200f3a3"
+}
+body: {
+  "title": "Autotest task",
+  "order": 0,
+  "description": "Lorem ipsum",
+  "userId": null,
+  "boardId": null,
+  "columnId": null
+}
+
+time: Wed Oct 28 2020 23:46:09 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards
+method: GET
+query: {}
+params: {}
+body: {}
+
+time: Wed Oct 28 2020 23:46:09 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/users/14cf60ed-6e04-4886-9a72-5c403c01a992
+method: GET
+query: {}
+params: {
+  "id": "14cf60ed-6e04-4886-9a72-5c403c01a992"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:46:09 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/8bb5dfc4-657b-4635-97af-740aa200f3a3/tasks
+method: GET
+query: {}
+params: {
+  "id": "8bb5dfc4-657b-4635-97af-740aa200f3a3"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:46:09 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/users/14cf60ed-6e04-4886-9a72-5c403c01a992
+method: DELETE
+query: {}
+params: {
+  "id": "14cf60ed-6e04-4886-9a72-5c403c01a992"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:46:09 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards
+method: GET
+query: {}
+params: {}
+body: {}
+
+time: Wed Oct 28 2020 23:46:09 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/8bb5dfc4-657b-4635-97af-740aa200f3a3/tasks
+method: GET
+query: {}
+params: {
+  "id": "8bb5dfc4-657b-4635-97af-740aa200f3a3"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:46:09 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/8bb5dfc4-657b-4635-97af-740aa200f3a3
+method: GET
+query: {}
+params: {
+  "id": "8bb5dfc4-657b-4635-97af-740aa200f3a3"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:46:09 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/8bb5dfc4-657b-4635-97af-740aa200f3a3/tasks/4271c7df-15f4-40e0-9b91-b7613336862b
+method: GET
+query: {}
+params: {
+  "id": "8bb5dfc4-657b-4635-97af-740aa200f3a3",
+  "idTask": "4271c7df-15f4-40e0-9b91-b7613336862b"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:46:09 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards
+method: POST
+query: {}
+params: {}
+body: {
+  "title": "Autotest board",
+  "columns": [
+    {
+      "title": "Backlog",
+      "order": 1
+    },
+    {
+      "title": "Sprint",
+      "order": 2
+    }
+  ]
+}
+
+time: Wed Oct 28 2020 23:46:10 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/8bb5dfc4-657b-4635-97af-740aa200f3a3/tasks
+method: POST
+query: {}
+params: {
+  "id": "8bb5dfc4-657b-4635-97af-740aa200f3a3"
+}
+body: {
+  "title": "Autotest task",
+  "order": 0,
+  "description": "Lorem ipsum",
+  "userId": null,
+  "boardId": null,
+  "columnId": null
+}
+
+time: Wed Oct 28 2020 23:46:10 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/9cb1ff95-0ef8-47fb-af48-053e0ff8d0a8
+method: DELETE
+query: {}
+params: {
+  "id": "9cb1ff95-0ef8-47fb-af48-053e0ff8d0a8"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:46:10 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/users
+method: POST
+query: {}
+params: {}
+body: {
+  "name": "TEST_USER",
+  "login": "test_user",
+  "password": "T35t_P@55w0rd"
+}
+
+time: Wed Oct 28 2020 23:46:10 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/8bb5dfc4-657b-4635-97af-740aa200f3a3/tasks/6d401413-24f6-471e-af4d-9c3b2915080c
+method: DELETE
+query: {}
+params: {
+  "id": "8bb5dfc4-657b-4635-97af-740aa200f3a3",
+  "idTask": "6d401413-24f6-471e-af4d-9c3b2915080c"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:46:10 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/users/c389208a-c727-4ca6-9759-77e3e7e7017e
+method: DELETE
+query: {}
+params: {
+  "id": "c389208a-c727-4ca6-9759-77e3e7e7017e"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:46:10 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/8bb5dfc4-657b-4635-97af-740aa200f3a3/tasks
+method: POST
+query: {}
+params: {
+  "id": "8bb5dfc4-657b-4635-97af-740aa200f3a3"
+}
+body: {
+  "title": "Autotest task",
+  "order": 0,
+  "description": "Lorem ipsum",
+  "userId": null,
+  "boardId": null,
+  "columnId": null
+}
+
+time: Wed Oct 28 2020 23:46:10 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards
+method: POST
+query: {}
+params: {}
+body: {
+  "title": "Autotest board",
+  "columns": [
+    {
+      "title": "Backlog",
+      "order": 1
+    },
+    {
+      "title": "Sprint",
+      "order": 2
+    }
+  ]
+}
+
+time: Wed Oct 28 2020 23:46:10 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/8bb5dfc4-657b-4635-97af-740aa200f3a3/tasks/4ee0cc67-500e-4169-8a26-a090ad419f1e
+method: PUT
+query: {}
+params: {
+  "id": "8bb5dfc4-657b-4635-97af-740aa200f3a3",
+  "idTask": "4ee0cc67-500e-4169-8a26-a090ad419f1e"
+}
+body: {
+  "_id": "5f99d89248542526001af0bf",
+  "title": "Autotest updated task",
+  "order": 0,
+  "description": "Lorem ipsum",
+  "userId": null,
+  "boardId": "8bb5dfc4-657b-4635-97af-740aa200f3a3",
+  "columnId": null,
+  "id": "4ee0cc67-500e-4169-8a26-a090ad419f1e"
+}
+
+time: Wed Oct 28 2020 23:46:10 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/deb78c66-514f-4c24-abd1-c56f8fc2faea
+method: PUT
+query: {}
+params: {
+  "id": "deb78c66-514f-4c24-abd1-c56f8fc2faea"
+}
+body: {
+  "_id": "5f99d89248542526001af0c0",
+  "title": "Autotest updated board",
+  "columns": [
+    {
+      "_id": "5f99d89248542526001af0c1",
+      "title": "Backlog",
+      "order": 1,
+      "id": "b24226ba-79cf-4494-aa5f-5cd158d19b7e"
+    },
+    {
+      "_id": "5f99d89248542526001af0c2",
+      "title": "Sprint",
+      "order": 2,
+      "id": "ba831563-a70a-41ec-808d-a05f2b6cc505"
+    }
+  ],
+  "id": "deb78c66-514f-4c24-abd1-c56f8fc2faea"
+}
+
+time: Wed Oct 28 2020 23:46:10 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/8bb5dfc4-657b-4635-97af-740aa200f3a3/tasks/4ee0cc67-500e-4169-8a26-a090ad419f1e
+method: GET
+query: {}
+params: {
+  "id": "8bb5dfc4-657b-4635-97af-740aa200f3a3",
+  "idTask": "4ee0cc67-500e-4169-8a26-a090ad419f1e"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:46:10 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/users
+method: POST
+query: {}
+params: {}
+body: {
+  "name": "TEST_USER",
+  "login": "test_user",
+  "password": "T35t_P@55w0rd"
+}
+
+time: Wed Oct 28 2020 23:46:10 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/deb78c66-514f-4c24-abd1-c56f8fc2faea
+method: GET
+query: {}
+params: {
+  "id": "deb78c66-514f-4c24-abd1-c56f8fc2faea"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:46:10 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/8bb5dfc4-657b-4635-97af-740aa200f3a3/tasks/4271c7df-15f4-40e0-9b91-b7613336862b
+method: GET
+query: {}
+params: {
+  "id": "8bb5dfc4-657b-4635-97af-740aa200f3a3",
+  "idTask": "4271c7df-15f4-40e0-9b91-b7613336862b"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:46:10 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/users/9aaea4a9-f405-4ea2-b2fb-e78180dcf3d9
+method: PUT
+query: {}
+params: {
+  "id": "9aaea4a9-f405-4ea2-b2fb-e78180dcf3d9"
+}
+body: {
+  "name": "Autotest updated TEST_USER",
+  "login": "test_user",
+  "password": "T35t_P@55w0rd",
+  "id": "9aaea4a9-f405-4ea2-b2fb-e78180dcf3d9"
+}
+
+time: Wed Oct 28 2020 23:46:10 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/deb78c66-514f-4c24-abd1-c56f8fc2faea
+method: DELETE
+query: {}
+params: {
+  "id": "deb78c66-514f-4c24-abd1-c56f8fc2faea"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:46:10 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/users/9aaea4a9-f405-4ea2-b2fb-e78180dcf3d9
+method: GET
+query: {}
+params: {
+  "id": "9aaea4a9-f405-4ea2-b2fb-e78180dcf3d9"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:46:10 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards
+method: POST
+query: {}
+params: {}
+body: {
+  "title": "Autotest board",
+  "columns": [
+    {
+      "title": "Backlog",
+      "order": 1
+    },
+    {
+      "title": "Sprint",
+      "order": 2
+    }
+  ]
+}
+
+time: Wed Oct 28 2020 23:46:10 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/users/9aaea4a9-f405-4ea2-b2fb-e78180dcf3d9
+method: DELETE
+query: {}
+params: {
+  "id": "9aaea4a9-f405-4ea2-b2fb-e78180dcf3d9"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:46:10 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/a4c45674-dcc5-4b0e-b772-109382253786
+method: DELETE
+query: {}
+params: {
+  "id": "a4c45674-dcc5-4b0e-b772-109382253786"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:46:10 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/8bb5dfc4-657b-4635-97af-740aa200f3a3/tasks/4271c7df-15f4-40e0-9b91-b7613336862b
+method: DELETE
+query: {}
+params: {
+  "id": "8bb5dfc4-657b-4635-97af-740aa200f3a3",
+  "idTask": "4271c7df-15f4-40e0-9b91-b7613336862b"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:46:11 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/8bb5dfc4-657b-4635-97af-740aa200f3a3/tasks/4271c7df-15f4-40e0-9b91-b7613336862b
+method: GET
+query: {}
+params: {
+  "id": "8bb5dfc4-657b-4635-97af-740aa200f3a3",
+  "idTask": "4271c7df-15f4-40e0-9b91-b7613336862b"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:46:11 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/a4c45674-dcc5-4b0e-b772-109382253786
+method: GET
+query: {}
+params: {
+  "id": "a4c45674-dcc5-4b0e-b772-109382253786"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:46:11 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/8bb5dfc4-657b-4635-97af-740aa200f3a3
+method: DELETE
+query: {}
+params: {
+  "id": "8bb5dfc4-657b-4635-97af-740aa200f3a3"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:46:11 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards
+method: POST
+query: {}
+params: {}
+body: {
+  "title": "Autotest board",
+  "columns": [
+    {
+      "title": "Backlog",
+      "order": 1
+    },
+    {
+      "title": "Sprint",
+      "order": 2
+    }
+  ]
+}
+
+time: Wed Oct 28 2020 23:46:11 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/users
+method: POST
+query: {}
+params: {}
+body: {
+  "name": "TEST_USER",
+  "login": "test_user",
+  "password": "T35t_P@55w0rd"
+}
+
+time: Wed Oct 28 2020 23:46:11 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/6f463e1f-92dd-41fd-9c89-e9408f72d3a2/tasks
+method: POST
+query: {}
+params: {
+  "id": "6f463e1f-92dd-41fd-9c89-e9408f72d3a2"
+}
+body: {
+  "title": "Task #5",
+  "order": 5,
+  "description": "Lorem ipsum",
+  "boardId": "6f463e1f-92dd-41fd-9c89-e9408f72d3a2",
+  "userId": null,
+  "columnId": null
+}
+
+time: Wed Oct 28 2020 23:46:11 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/6f463e1f-92dd-41fd-9c89-e9408f72d3a2/tasks
+method: POST
+query: {}
+params: {
+  "id": "6f463e1f-92dd-41fd-9c89-e9408f72d3a2"
+}
+body: {
+  "title": "Task #1",
+  "order": 1,
+  "description": "Lorem ipsum",
+  "boardId": "6f463e1f-92dd-41fd-9c89-e9408f72d3a2",
+  "userId": null,
+  "columnId": null
+}
+
+time: Wed Oct 28 2020 23:46:11 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/6f463e1f-92dd-41fd-9c89-e9408f72d3a2/tasks
+method: POST
+query: {}
+params: {
+  "id": "6f463e1f-92dd-41fd-9c89-e9408f72d3a2"
+}
+body: {
+  "title": "Task #2",
+  "order": 2,
+  "description": "Lorem ipsum",
+  "boardId": "6f463e1f-92dd-41fd-9c89-e9408f72d3a2",
+  "userId": null,
+  "columnId": null
+}
+
+time: Wed Oct 28 2020 23:46:11 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/6f463e1f-92dd-41fd-9c89-e9408f72d3a2/tasks
+method: POST
+query: {}
+params: {
+  "id": "6f463e1f-92dd-41fd-9c89-e9408f72d3a2"
+}
+body: {
+  "title": "Task #3",
+  "order": 3,
+  "description": "Lorem ipsum",
+  "boardId": "6f463e1f-92dd-41fd-9c89-e9408f72d3a2",
+  "userId": null,
+  "columnId": null
+}
+
+time: Wed Oct 28 2020 23:46:11 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/6f463e1f-92dd-41fd-9c89-e9408f72d3a2/tasks
+method: POST
+query: {}
+params: {
+  "id": "6f463e1f-92dd-41fd-9c89-e9408f72d3a2"
+}
+body: {
+  "title": "Task #4",
+  "order": 4,
+  "description": "Lorem ipsum",
+  "boardId": "6f463e1f-92dd-41fd-9c89-e9408f72d3a2",
+  "userId": null,
+  "columnId": null
+}
+
+time: Wed Oct 28 2020 23:46:11 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/users/7b515d45-ffcf-4ee0-986f-0a5877fd627e
+method: DELETE
+query: {}
+params: {
+  "id": "7b515d45-ffcf-4ee0-986f-0a5877fd627e"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:46:11 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/6f463e1f-92dd-41fd-9c89-e9408f72d3a2/tasks/fa920cc0-9db3-4cc1-b668-cd18b3cba5d1
+method: GET
+query: {}
+params: {
+  "id": "6f463e1f-92dd-41fd-9c89-e9408f72d3a2",
+  "idTask": "fa920cc0-9db3-4cc1-b668-cd18b3cba5d1"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:46:11 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/6f463e1f-92dd-41fd-9c89-e9408f72d3a2/tasks/a8e0b76b-5f5b-42d7-81ae-1f80f29f2427
+method: GET
+query: {}
+params: {
+  "id": "6f463e1f-92dd-41fd-9c89-e9408f72d3a2",
+  "idTask": "a8e0b76b-5f5b-42d7-81ae-1f80f29f2427"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:46:11 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/6f463e1f-92dd-41fd-9c89-e9408f72d3a2/tasks/3495a545-0dd2-4345-b20a-1ad48cd69a28
+method: GET
+query: {}
+params: {
+  "id": "6f463e1f-92dd-41fd-9c89-e9408f72d3a2",
+  "idTask": "3495a545-0dd2-4345-b20a-1ad48cd69a28"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:46:11 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/6f463e1f-92dd-41fd-9c89-e9408f72d3a2/tasks/5b4341f7-2dc0-47ac-be04-02dbab83ba0d
+method: GET
+query: {}
+params: {
+  "id": "6f463e1f-92dd-41fd-9c89-e9408f72d3a2",
+  "idTask": "5b4341f7-2dc0-47ac-be04-02dbab83ba0d"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:46:11 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/6f463e1f-92dd-41fd-9c89-e9408f72d3a2/tasks/1dea6ca1-5c26-4a18-a86e-6f58ad4ec5ad
+method: GET
+query: {}
+params: {
+  "id": "6f463e1f-92dd-41fd-9c89-e9408f72d3a2",
+  "idTask": "1dea6ca1-5c26-4a18-a86e-6f58ad4ec5ad"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:46:11 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/6f463e1f-92dd-41fd-9c89-e9408f72d3a2
+method: DELETE
+query: {}
+params: {
+  "id": "6f463e1f-92dd-41fd-9c89-e9408f72d3a2"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:46:11 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/users
+method: POST
+query: {}
+params: {}
+body: {
+  "name": "TEST_USER",
+  "login": "test_user",
+  "password": "T35t_P@55w0rd"
+}
+
+time: Wed Oct 28 2020 23:46:11 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/6f463e1f-92dd-41fd-9c89-e9408f72d3a2/tasks/fa920cc0-9db3-4cc1-b668-cd18b3cba5d1
+method: GET
+query: {}
+params: {
+  "id": "6f463e1f-92dd-41fd-9c89-e9408f72d3a2",
+  "idTask": "fa920cc0-9db3-4cc1-b668-cd18b3cba5d1"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:46:11 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/6f463e1f-92dd-41fd-9c89-e9408f72d3a2/tasks/a8e0b76b-5f5b-42d7-81ae-1f80f29f2427
+method: GET
+query: {}
+params: {
+  "id": "6f463e1f-92dd-41fd-9c89-e9408f72d3a2",
+  "idTask": "a8e0b76b-5f5b-42d7-81ae-1f80f29f2427"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:46:11 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/6f463e1f-92dd-41fd-9c89-e9408f72d3a2/tasks/1dea6ca1-5c26-4a18-a86e-6f58ad4ec5ad
+method: GET
+query: {}
+params: {
+  "id": "6f463e1f-92dd-41fd-9c89-e9408f72d3a2",
+  "idTask": "1dea6ca1-5c26-4a18-a86e-6f58ad4ec5ad"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:46:11 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/6f463e1f-92dd-41fd-9c89-e9408f72d3a2/tasks/3495a545-0dd2-4345-b20a-1ad48cd69a28
+method: GET
+query: {}
+params: {
+  "id": "6f463e1f-92dd-41fd-9c89-e9408f72d3a2",
+  "idTask": "3495a545-0dd2-4345-b20a-1ad48cd69a28"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:46:11 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/6f463e1f-92dd-41fd-9c89-e9408f72d3a2/tasks/5b4341f7-2dc0-47ac-be04-02dbab83ba0d
+method: GET
+query: {}
+params: {
+  "id": "6f463e1f-92dd-41fd-9c89-e9408f72d3a2",
+  "idTask": "5b4341f7-2dc0-47ac-be04-02dbab83ba0d"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:46:11 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards
+method: POST
+query: {}
+params: {}
+body: {
+  "title": "Autotest board",
+  "columns": [
+    {
+      "title": "Backlog",
+      "order": 1
+    },
+    {
+      "title": "Sprint",
+      "order": 2
+    }
+  ]
+}
+
+time: Wed Oct 28 2020 23:46:11 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/34483bff-27ac-4d59-a414-feb422df431e
+method: DELETE
+query: {}
+params: {
+  "id": "34483bff-27ac-4d59-a414-feb422df431e"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:46:12 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/04ed677e-c071-4c7b-af80-9c0ce9d86c0b/tasks
+method: POST
+query: {}
+params: {
+  "id": "04ed677e-c071-4c7b-af80-9c0ce9d86c0b"
+}
+body: {
+  "title": "Task #1",
+  "order": 1,
+  "description": "Lorem ipsum",
+  "userId": "3f8df0e1-e8bc-4c83-9f88-8614c1b23a93",
+  "boardId": "04ed677e-c071-4c7b-af80-9c0ce9d86c0b"
+}
+
+time: Wed Oct 28 2020 23:46:12 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/04ed677e-c071-4c7b-af80-9c0ce9d86c0b/tasks
+method: POST
+query: {}
+params: {
+  "id": "04ed677e-c071-4c7b-af80-9c0ce9d86c0b"
+}
+body: {
+  "title": "Task #2",
+  "order": 2,
+  "description": "Lorem ipsum",
+  "userId": "3f8df0e1-e8bc-4c83-9f88-8614c1b23a93",
+  "boardId": "04ed677e-c071-4c7b-af80-9c0ce9d86c0b"
+}
+
+time: Wed Oct 28 2020 23:46:12 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/users/3f8df0e1-e8bc-4c83-9f88-8614c1b23a93
+method: DELETE
+query: {}
+params: {
+  "id": "3f8df0e1-e8bc-4c83-9f88-8614c1b23a93"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:46:12 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/04ed677e-c071-4c7b-af80-9c0ce9d86c0b/tasks/951311ee-3e33-461f-b891-4ac3a99e6ef2
+method: GET
+query: {}
+params: {
+  "id": "04ed677e-c071-4c7b-af80-9c0ce9d86c0b",
+  "idTask": "951311ee-3e33-461f-b891-4ac3a99e6ef2"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:46:12 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/04ed677e-c071-4c7b-af80-9c0ce9d86c0b/tasks/bb2dfc60-2c76-4ec8-9097-fb0579c6d58f
+method: GET
+query: {}
+params: {
+  "id": "04ed677e-c071-4c7b-af80-9c0ce9d86c0b",
+  "idTask": "bb2dfc60-2c76-4ec8-9097-fb0579c6d58f"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:46:12 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/04ed677e-c071-4c7b-af80-9c0ce9d86c0b/tasks/951311ee-3e33-461f-b891-4ac3a99e6ef2
+method: DELETE
+query: {}
+params: {
+  "id": "04ed677e-c071-4c7b-af80-9c0ce9d86c0b",
+  "idTask": "951311ee-3e33-461f-b891-4ac3a99e6ef2"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:46:12 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/04ed677e-c071-4c7b-af80-9c0ce9d86c0b/tasks/bb2dfc60-2c76-4ec8-9097-fb0579c6d58f
+method: DELETE
+query: {}
+params: {
+  "id": "04ed677e-c071-4c7b-af80-9c0ce9d86c0b",
+  "idTask": "bb2dfc60-2c76-4ec8-9097-fb0579c6d58f"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:46:12 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/04ed677e-c071-4c7b-af80-9c0ce9d86c0b
+method: DELETE
+query: {}
+params: {
+  "id": "04ed677e-c071-4c7b-af80-9c0ce9d86c0b"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:49:37 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards
+method: POST
+query: {}
+params: {}
+body: {
+  "title": "Autotest board",
+  "columns": [
+    {
+      "title": "Backlog",
+      "order": 1
+    },
+    {
+      "title": "Sprint",
+      "order": 2
+    }
+  ]
+}
+
+time: Wed Oct 28 2020 23:49:37 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards
+method: POST
+query: {}
+params: {}
+body: {
+  "title": "Autotest board",
+  "columns": [
+    {
+      "title": "Backlog",
+      "order": 1
+    },
+    {
+      "title": "Sprint",
+      "order": 2
+    }
+  ]
+}
+
+time: Wed Oct 28 2020 23:49:37 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/users
+method: GET
+query: {}
+params: {}
+body: {}
+
+time: Wed Oct 28 2020 23:49:37 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/290ac5e7-be78-45a3-af8b-323726e30bcc/tasks
+method: POST
+query: {}
+params: {
+  "id": "290ac5e7-be78-45a3-af8b-323726e30bcc"
+}
+body: {
+  "title": "Autotest task",
+  "order": 0,
+  "description": "Lorem ipsum",
+  "userId": null,
+  "boardId": null,
+  "columnId": null
+}
+
+time: Wed Oct 28 2020 23:49:37 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards
+method: GET
+query: {}
+params: {}
+body: {}
+
+time: Wed Oct 28 2020 23:49:37 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/users
+method: POST
+query: {}
+params: {}
+body: {
+  "name": "TEST_USER",
+  "login": "test_user",
+  "password": "T35t_P@55w0rd"
+}
+
+time: Wed Oct 28 2020 23:49:37 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/290ac5e7-be78-45a3-af8b-323726e30bcc/tasks
+method: GET
+query: {}
+params: {
+  "id": "290ac5e7-be78-45a3-af8b-323726e30bcc"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:49:38 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards
+method: GET
+query: {}
+params: {}
+body: {}
+
+time: Wed Oct 28 2020 23:49:38 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/users/c634f177-cc9e-4bfa-8e88-31771a0de8a8
+method: GET
+query: {}
+params: {
+  "id": "c634f177-cc9e-4bfa-8e88-31771a0de8a8"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:49:38 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/290ac5e7-be78-45a3-af8b-323726e30bcc/tasks
+method: GET
+query: {}
+params: {
+  "id": "290ac5e7-be78-45a3-af8b-323726e30bcc"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:49:38 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/290ac5e7-be78-45a3-af8b-323726e30bcc
+method: GET
+query: {}
+params: {
+  "id": "290ac5e7-be78-45a3-af8b-323726e30bcc"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:49:38 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/users/c634f177-cc9e-4bfa-8e88-31771a0de8a8
+method: DELETE
+query: {}
+params: {
+  "id": "c634f177-cc9e-4bfa-8e88-31771a0de8a8"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:49:38 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards
+method: POST
+query: {}
+params: {}
+body: {
+  "title": "Autotest board",
+  "columns": [
+    {
+      "title": "Backlog",
+      "order": 1
+    },
+    {
+      "title": "Sprint",
+      "order": 2
+    }
+  ]
+}
+
+time: Wed Oct 28 2020 23:49:38 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/6f463e1f-92dd-41fd-9c89-e9408f72d3a2/tasks/5b4341f7-2dc0-47ac-be04-02dbab83ba0d
+method: GET
+query: {}
+params: {
+  "id": "6f463e1f-92dd-41fd-9c89-e9408f72d3a2",
+  "idTask": "5b4341f7-2dc0-47ac-be04-02dbab83ba0d"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:49:38 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/b4a2e2ec-12b1-40ac-b276-fdee1b13ef21
+method: DELETE
+query: {}
+params: {
+  "id": "b4a2e2ec-12b1-40ac-b276-fdee1b13ef21"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:49:38 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/290ac5e7-be78-45a3-af8b-323726e30bcc/tasks
+method: POST
+query: {}
+params: {
+  "id": "290ac5e7-be78-45a3-af8b-323726e30bcc"
+}
+body: {
+  "title": "Autotest task",
+  "order": 0,
+  "description": "Lorem ipsum",
+  "userId": null,
+  "boardId": null,
+  "columnId": null
+}
+
+time: Wed Oct 28 2020 23:49:38 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/290ac5e7-be78-45a3-af8b-323726e30bcc/tasks/4676c1e6-e879-4549-9f02-f7ab396dfa0e
+method: DELETE
+query: {}
+params: {
+  "id": "290ac5e7-be78-45a3-af8b-323726e30bcc",
+  "idTask": "4676c1e6-e879-4549-9f02-f7ab396dfa0e"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:49:38 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/290ac5e7-be78-45a3-af8b-323726e30bcc/tasks
+method: POST
+query: {}
+params: {
+  "id": "290ac5e7-be78-45a3-af8b-323726e30bcc"
+}
+body: {
+  "title": "Autotest task",
+  "order": 0,
+  "description": "Lorem ipsum",
+  "userId": null,
+  "boardId": null,
+  "columnId": null
+}
+
+time: Wed Oct 28 2020 23:49:38 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards
+method: POST
+query: {}
+params: {}
+body: {
+  "title": "Autotest board",
+  "columns": [
+    {
+      "title": "Backlog",
+      "order": 1
+    },
+    {
+      "title": "Sprint",
+      "order": 2
+    }
+  ]
+}
+
+time: Wed Oct 28 2020 23:49:38 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/users
+method: POST
+query: {}
+params: {}
+body: {
+  "name": "TEST_USER",
+  "login": "test_user",
+  "password": "T35t_P@55w0rd"
+}
+
+time: Wed Oct 28 2020 23:49:38 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/290ac5e7-be78-45a3-af8b-323726e30bcc/tasks/d2a8460e-1ad3-4b7a-b1ab-d1ab7eea8120
+method: PUT
+query: {}
+params: {
+  "id": "290ac5e7-be78-45a3-af8b-323726e30bcc",
+  "idTask": "d2a8460e-1ad3-4b7a-b1ab-d1ab7eea8120"
+}
+body: {
+  "_id": "5f99d962bd007a33a80b522d",
+  "title": "Autotest updated task",
+  "order": 0,
+  "description": "Lorem ipsum",
+  "userId": null,
+  "boardId": "290ac5e7-be78-45a3-af8b-323726e30bcc",
+  "columnId": null,
+  "id": "d2a8460e-1ad3-4b7a-b1ab-d1ab7eea8120"
+}
+
+time: Wed Oct 28 2020 23:49:38 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/628aea0d-c655-4eb6-8964-dc7a487aac35
+method: PUT
+query: {}
+params: {
+  "id": "628aea0d-c655-4eb6-8964-dc7a487aac35"
+}
+body: {
+  "_id": "5f99d962bd007a33a80b522e",
+  "title": "Autotest updated board",
+  "columns": [
+    {
+      "_id": "5f99d962bd007a33a80b522f",
+      "title": "Backlog",
+      "order": 1,
+      "id": "6082b9eb-eaab-4398-9746-bea9d290e2bc"
+    },
+    {
+      "_id": "5f99d962bd007a33a80b5230",
+      "title": "Sprint",
+      "order": 2,
+      "id": "cb692c50-65d5-403f-84ff-e8d86c23414e"
+    }
+  ],
+  "id": "628aea0d-c655-4eb6-8964-dc7a487aac35"
+}
+
+time: Wed Oct 28 2020 23:49:38 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/users/b49f92cb-a9d2-4b10-b9f6-2de7ff8872d2
+method: DELETE
+query: {}
+params: {
+  "id": "b49f92cb-a9d2-4b10-b9f6-2de7ff8872d2"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:49:38 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/290ac5e7-be78-45a3-af8b-323726e30bcc/tasks/d2a8460e-1ad3-4b7a-b1ab-d1ab7eea8120
+method: GET
+query: {}
+params: {
+  "id": "290ac5e7-be78-45a3-af8b-323726e30bcc",
+  "idTask": "d2a8460e-1ad3-4b7a-b1ab-d1ab7eea8120"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:49:38 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/628aea0d-c655-4eb6-8964-dc7a487aac35
+method: GET
+query: {}
+params: {
+  "id": "628aea0d-c655-4eb6-8964-dc7a487aac35"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:49:38 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/290ac5e7-be78-45a3-af8b-323726e30bcc/tasks/bca4f9ec-2301-4712-a5dc-66a21a16cb44
+method: GET
+query: {}
+params: {
+  "id": "290ac5e7-be78-45a3-af8b-323726e30bcc",
+  "idTask": "bca4f9ec-2301-4712-a5dc-66a21a16cb44"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:49:38 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/628aea0d-c655-4eb6-8964-dc7a487aac35
+method: DELETE
+query: {}
+params: {
+  "id": "628aea0d-c655-4eb6-8964-dc7a487aac35"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:49:39 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/290ac5e7-be78-45a3-af8b-323726e30bcc/tasks/bca4f9ec-2301-4712-a5dc-66a21a16cb44
+method: DELETE
+query: {}
+params: {
+  "id": "290ac5e7-be78-45a3-af8b-323726e30bcc",
+  "idTask": "bca4f9ec-2301-4712-a5dc-66a21a16cb44"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:49:39 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/users
+method: POST
+query: {}
+params: {}
+body: {
+  "name": "TEST_USER",
+  "login": "test_user",
+  "password": "T35t_P@55w0rd"
+}
+
+time: Wed Oct 28 2020 23:49:39 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/290ac5e7-be78-45a3-af8b-323726e30bcc/tasks/bca4f9ec-2301-4712-a5dc-66a21a16cb44
+method: GET
+query: {}
+params: {
+  "id": "290ac5e7-be78-45a3-af8b-323726e30bcc",
+  "idTask": "bca4f9ec-2301-4712-a5dc-66a21a16cb44"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:49:39 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/users/ed052ba4-0c6d-48d8-91ee-ee5cf9731e31
+method: PUT
+query: {}
+params: {
+  "id": "ed052ba4-0c6d-48d8-91ee-ee5cf9731e31"
+}
+body: {
+  "name": "Autotest updated TEST_USER",
+  "login": "test_user",
+  "password": "T35t_P@55w0rd",
+  "id": "ed052ba4-0c6d-48d8-91ee-ee5cf9731e31"
+}
+
+time: Wed Oct 28 2020 23:49:39 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards
+method: POST
+query: {}
+params: {}
+body: {
+  "title": "Autotest board",
+  "columns": [
+    {
+      "title": "Backlog",
+      "order": 1
+    },
+    {
+      "title": "Sprint",
+      "order": 2
+    }
+  ]
+}
+
+time: Wed Oct 28 2020 23:49:39 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/290ac5e7-be78-45a3-af8b-323726e30bcc
+method: DELETE
+query: {}
+params: {
+  "id": "290ac5e7-be78-45a3-af8b-323726e30bcc"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:49:39 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/b96735ba-6481-4369-b8d0-4a55e95e0fde
+method: DELETE
+query: {}
+params: {
+  "id": "b96735ba-6481-4369-b8d0-4a55e95e0fde"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:49:39 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/users/ed052ba4-0c6d-48d8-91ee-ee5cf9731e31
+method: GET
+query: {}
+params: {
+  "id": "ed052ba4-0c6d-48d8-91ee-ee5cf9731e31"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:49:39 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/users/ed052ba4-0c6d-48d8-91ee-ee5cf9731e31
+method: DELETE
+query: {}
+params: {
+  "id": "ed052ba4-0c6d-48d8-91ee-ee5cf9731e31"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:49:39 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards
+method: POST
+query: {}
+params: {}
+body: {
+  "title": "Autotest board",
+  "columns": [
+    {
+      "title": "Backlog",
+      "order": 1
+    },
+    {
+      "title": "Sprint",
+      "order": 2
+    }
+  ]
+}
+
+time: Wed Oct 28 2020 23:49:39 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/268e74df-95dd-49b5-a180-59358fbf8575/tasks
+method: POST
+query: {}
+params: {
+  "id": "268e74df-95dd-49b5-a180-59358fbf8575"
+}
+body: {
+  "title": "Task #1",
+  "order": 1,
+  "description": "Lorem ipsum",
+  "boardId": "268e74df-95dd-49b5-a180-59358fbf8575",
+  "userId": null,
+  "columnId": null
+}
+
+time: Wed Oct 28 2020 23:49:39 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/268e74df-95dd-49b5-a180-59358fbf8575/tasks
+method: POST
+query: {}
+params: {
+  "id": "268e74df-95dd-49b5-a180-59358fbf8575"
+}
+body: {
+  "title": "Task #2",
+  "order": 2,
+  "description": "Lorem ipsum",
+  "boardId": "268e74df-95dd-49b5-a180-59358fbf8575",
+  "userId": null,
+  "columnId": null
+}
+
+time: Wed Oct 28 2020 23:49:39 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/268e74df-95dd-49b5-a180-59358fbf8575/tasks
+method: POST
+query: {}
+params: {
+  "id": "268e74df-95dd-49b5-a180-59358fbf8575"
+}
+body: {
+  "title": "Task #3",
+  "order": 3,
+  "description": "Lorem ipsum",
+  "boardId": "268e74df-95dd-49b5-a180-59358fbf8575",
+  "userId": null,
+  "columnId": null
+}
+
+time: Wed Oct 28 2020 23:49:39 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/268e74df-95dd-49b5-a180-59358fbf8575/tasks
+method: POST
+query: {}
+params: {
+  "id": "268e74df-95dd-49b5-a180-59358fbf8575"
+}
+body: {
+  "title": "Task #4",
+  "order": 4,
+  "description": "Lorem ipsum",
+  "boardId": "268e74df-95dd-49b5-a180-59358fbf8575",
+  "userId": null,
+  "columnId": null
+}
+
+time: Wed Oct 28 2020 23:49:39 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/268e74df-95dd-49b5-a180-59358fbf8575/tasks
+method: POST
+query: {}
+params: {
+  "id": "268e74df-95dd-49b5-a180-59358fbf8575"
+}
+body: {
+  "title": "Task #5",
+  "order": 5,
+  "description": "Lorem ipsum",
+  "boardId": "268e74df-95dd-49b5-a180-59358fbf8575",
+  "userId": null,
+  "columnId": null
+}
+
+time: Wed Oct 28 2020 23:49:39 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/users
+method: POST
+query: {}
+params: {}
+body: {
+  "name": "TEST_USER",
+  "login": "test_user",
+  "password": "T35t_P@55w0rd"
+}
+
+time: Wed Oct 28 2020 23:49:39 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/268e74df-95dd-49b5-a180-59358fbf8575/tasks/4a8cc1f7-6e62-41d1-811d-58f6b2dc90e9
+method: GET
+query: {}
+params: {
+  "id": "268e74df-95dd-49b5-a180-59358fbf8575",
+  "idTask": "4a8cc1f7-6e62-41d1-811d-58f6b2dc90e9"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:49:40 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/268e74df-95dd-49b5-a180-59358fbf8575/tasks/73fdaacb-9a13-4cfa-b958-a0f2655e3acc
+method: GET
+query: {}
+params: {
+  "id": "268e74df-95dd-49b5-a180-59358fbf8575",
+  "idTask": "73fdaacb-9a13-4cfa-b958-a0f2655e3acc"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:49:40 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/268e74df-95dd-49b5-a180-59358fbf8575/tasks/4e90b727-ba8a-4d3f-9c5a-206066ec06eb
+method: GET
+query: {}
+params: {
+  "id": "268e74df-95dd-49b5-a180-59358fbf8575",
+  "idTask": "4e90b727-ba8a-4d3f-9c5a-206066ec06eb"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:49:40 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/268e74df-95dd-49b5-a180-59358fbf8575/tasks/90777f22-5313-4568-86b3-07d5e01747bf
+method: GET
+query: {}
+params: {
+  "id": "268e74df-95dd-49b5-a180-59358fbf8575",
+  "idTask": "90777f22-5313-4568-86b3-07d5e01747bf"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:49:40 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/268e74df-95dd-49b5-a180-59358fbf8575/tasks/584ec951-aa56-4e17-a095-a75c4faa0777
+method: GET
+query: {}
+params: {
+  "id": "268e74df-95dd-49b5-a180-59358fbf8575",
+  "idTask": "584ec951-aa56-4e17-a095-a75c4faa0777"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:49:40 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/users/62a00e02-be11-4427-87a1-0580e0688d19
+method: DELETE
+query: {}
+params: {
+  "id": "62a00e02-be11-4427-87a1-0580e0688d19"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:49:40 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/268e74df-95dd-49b5-a180-59358fbf8575
+method: DELETE
+query: {}
+params: {
+  "id": "268e74df-95dd-49b5-a180-59358fbf8575"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:49:40 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/268e74df-95dd-49b5-a180-59358fbf8575/tasks/4a8cc1f7-6e62-41d1-811d-58f6b2dc90e9
+method: GET
+query: {}
+params: {
+  "id": "268e74df-95dd-49b5-a180-59358fbf8575",
+  "idTask": "4a8cc1f7-6e62-41d1-811d-58f6b2dc90e9"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:49:40 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/268e74df-95dd-49b5-a180-59358fbf8575/tasks/73fdaacb-9a13-4cfa-b958-a0f2655e3acc
+method: GET
+query: {}
+params: {
+  "id": "268e74df-95dd-49b5-a180-59358fbf8575",
+  "idTask": "73fdaacb-9a13-4cfa-b958-a0f2655e3acc"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:49:40 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/268e74df-95dd-49b5-a180-59358fbf8575/tasks/90777f22-5313-4568-86b3-07d5e01747bf
+method: GET
+query: {}
+params: {
+  "id": "268e74df-95dd-49b5-a180-59358fbf8575",
+  "idTask": "90777f22-5313-4568-86b3-07d5e01747bf"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:49:40 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/users
+method: POST
+query: {}
+params: {}
+body: {
+  "name": "TEST_USER",
+  "login": "test_user",
+  "password": "T35t_P@55w0rd"
+}
+
+time: Wed Oct 28 2020 23:49:40 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/2780e931-5eae-4abd-bbb7-73a41dfe14a9
+method: DELETE
+query: {}
+params: {
+  "id": "2780e931-5eae-4abd-bbb7-73a41dfe14a9"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:49:40 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/268e74df-95dd-49b5-a180-59358fbf8575/tasks/4e90b727-ba8a-4d3f-9c5a-206066ec06eb
+method: GET
+query: {}
+params: {
+  "id": "268e74df-95dd-49b5-a180-59358fbf8575",
+  "idTask": "4e90b727-ba8a-4d3f-9c5a-206066ec06eb"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:49:40 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/268e74df-95dd-49b5-a180-59358fbf8575/tasks/584ec951-aa56-4e17-a095-a75c4faa0777
+method: GET
+query: {}
+params: {
+  "id": "268e74df-95dd-49b5-a180-59358fbf8575",
+  "idTask": "584ec951-aa56-4e17-a095-a75c4faa0777"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:49:40 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards
+method: POST
+query: {}
+params: {}
+body: {
+  "title": "Autotest board",
+  "columns": [
+    {
+      "title": "Backlog",
+      "order": 1
+    },
+    {
+      "title": "Sprint",
+      "order": 2
+    }
+  ]
+}
+
+time: Wed Oct 28 2020 23:49:40 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/2a91de53-e123-4764-8326-dbe001f88e0b/tasks
+method: POST
+query: {}
+params: {
+  "id": "2a91de53-e123-4764-8326-dbe001f88e0b"
+}
+body: {
+  "title": "Task #1",
+  "order": 1,
+  "description": "Lorem ipsum",
+  "userId": "b70479cb-dde4-4585-8631-5cb06871b97f",
+  "boardId": "2a91de53-e123-4764-8326-dbe001f88e0b"
+}
+
+time: Wed Oct 28 2020 23:49:40 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/2a91de53-e123-4764-8326-dbe001f88e0b/tasks
+method: POST
+query: {}
+params: {
+  "id": "2a91de53-e123-4764-8326-dbe001f88e0b"
+}
+body: {
+  "title": "Task #2",
+  "order": 2,
+  "description": "Lorem ipsum",
+  "userId": "b70479cb-dde4-4585-8631-5cb06871b97f",
+  "boardId": "2a91de53-e123-4764-8326-dbe001f88e0b"
+}
+
+time: Wed Oct 28 2020 23:49:40 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/users/b70479cb-dde4-4585-8631-5cb06871b97f
+method: DELETE
+query: {}
+params: {
+  "id": "b70479cb-dde4-4585-8631-5cb06871b97f"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:49:41 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/2a91de53-e123-4764-8326-dbe001f88e0b/tasks/545426e1-da2a-436e-8c62-633f68e7e9cc
+method: GET
+query: {}
+params: {
+  "id": "2a91de53-e123-4764-8326-dbe001f88e0b",
+  "idTask": "545426e1-da2a-436e-8c62-633f68e7e9cc"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:49:41 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/2a91de53-e123-4764-8326-dbe001f88e0b/tasks/736979d1-3af4-4ea1-a35a-a73ba3258a34
+method: GET
+query: {}
+params: {
+  "id": "2a91de53-e123-4764-8326-dbe001f88e0b",
+  "idTask": "736979d1-3af4-4ea1-a35a-a73ba3258a34"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:49:41 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/2a91de53-e123-4764-8326-dbe001f88e0b/tasks/545426e1-da2a-436e-8c62-633f68e7e9cc
+method: DELETE
+query: {}
+params: {
+  "id": "2a91de53-e123-4764-8326-dbe001f88e0b",
+  "idTask": "545426e1-da2a-436e-8c62-633f68e7e9cc"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:49:41 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/2a91de53-e123-4764-8326-dbe001f88e0b/tasks/736979d1-3af4-4ea1-a35a-a73ba3258a34
+method: DELETE
+query: {}
+params: {
+  "id": "2a91de53-e123-4764-8326-dbe001f88e0b",
+  "idTask": "736979d1-3af4-4ea1-a35a-a73ba3258a34"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:49:41 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/2a91de53-e123-4764-8326-dbe001f88e0b
+method: DELETE
+query: {}
+params: {
+  "id": "2a91de53-e123-4764-8326-dbe001f88e0b"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:52:14 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards
+method: POST
+query: {}
+params: {}
+body: {
+  "title": "Autotest board",
+  "columns": [
+    {
+      "title": "Backlog",
+      "order": 1
+    },
+    {
+      "title": "Sprint",
+      "order": 2
+    }
+  ]
+}
+
+time: Wed Oct 28 2020 23:52:14 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards
+method: POST
+query: {}
+params: {}
+body: {
+  "title": "Autotest board",
+  "columns": [
+    {
+      "title": "Backlog",
+      "order": 1
+    },
+    {
+      "title": "Sprint",
+      "order": 2
+    }
+  ]
+}
+
+time: Wed Oct 28 2020 23:52:14 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/users
+method: GET
+query: {}
+params: {}
+body: {}
+
+time: Wed Oct 28 2020 23:52:15 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/969c43be-fd91-4ca7-b0e7-67bf016c7ded/tasks
+method: POST
+query: {}
+params: {
+  "id": "969c43be-fd91-4ca7-b0e7-67bf016c7ded"
+}
+body: {
+  "title": "Autotest task",
+  "order": 0,
+  "description": "Lorem ipsum",
+  "userId": null,
+  "boardId": null,
+  "columnId": null
+}
+
+time: Wed Oct 28 2020 23:52:15 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards
+method: GET
+query: {}
+params: {}
+body: {}
+
+time: Wed Oct 28 2020 23:52:15 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/users
+method: POST
+query: {}
+params: {}
+body: {
+  "name": "TEST_USER",
+  "login": "test_user",
+  "password": "T35t_P@55w0rd"
+}
+
+time: Wed Oct 28 2020 23:52:15 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/969c43be-fd91-4ca7-b0e7-67bf016c7ded/tasks
+method: GET
+query: {}
+params: {
+  "id": "969c43be-fd91-4ca7-b0e7-67bf016c7ded"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:52:15 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards
+method: GET
+query: {}
+params: {}
+body: {}
+
+time: Wed Oct 28 2020 23:52:15 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/users/765b9057-0791-455d-9e45-52f4ff48e6d2
+method: GET
+query: {}
+params: {
+  "id": "765b9057-0791-455d-9e45-52f4ff48e6d2"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:52:15 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/969c43be-fd91-4ca7-b0e7-67bf016c7ded/tasks
+method: GET
+query: {}
+params: {
+  "id": "969c43be-fd91-4ca7-b0e7-67bf016c7ded"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:52:15 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/969c43be-fd91-4ca7-b0e7-67bf016c7ded
+method: GET
+query: {}
+params: {
+  "id": "969c43be-fd91-4ca7-b0e7-67bf016c7ded"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:52:15 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/6f463e1f-92dd-41fd-9c89-e9408f72d3a2/tasks/5b4341f7-2dc0-47ac-be04-02dbab83ba0d
+method: GET
+query: {}
+params: {
+  "id": "6f463e1f-92dd-41fd-9c89-e9408f72d3a2",
+  "idTask": "5b4341f7-2dc0-47ac-be04-02dbab83ba0d"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:52:15 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/users/765b9057-0791-455d-9e45-52f4ff48e6d2
+method: DELETE
+query: {}
+params: {
+  "id": "765b9057-0791-455d-9e45-52f4ff48e6d2"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:52:15 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards
+method: POST
+query: {}
+params: {}
+body: {
+  "title": "Autotest board",
+  "columns": [
+    {
+      "title": "Backlog",
+      "order": 1
+    },
+    {
+      "title": "Sprint",
+      "order": 2
+    }
+  ]
+}
+
+time: Wed Oct 28 2020 23:52:15 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/969c43be-fd91-4ca7-b0e7-67bf016c7ded/tasks
+method: POST
+query: {}
+params: {
+  "id": "969c43be-fd91-4ca7-b0e7-67bf016c7ded"
+}
+body: {
+  "title": "Autotest task",
+  "order": 0,
+  "description": "Lorem ipsum",
+  "userId": null,
+  "boardId": null,
+  "columnId": null
+}
+
+time: Wed Oct 28 2020 23:52:15 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/f886c1cf-7e44-4374-bff1-aae9ccac0811
+method: DELETE
+query: {}
+params: {
+  "id": "f886c1cf-7e44-4374-bff1-aae9ccac0811"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:52:15 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/969c43be-fd91-4ca7-b0e7-67bf016c7ded/tasks/0c74e94f-50d7-48b8-8310-048f11eeeb2b
+method: DELETE
+query: {}
+params: {
+  "id": "969c43be-fd91-4ca7-b0e7-67bf016c7ded",
+  "idTask": "0c74e94f-50d7-48b8-8310-048f11eeeb2b"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:52:15 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/969c43be-fd91-4ca7-b0e7-67bf016c7ded/tasks
+method: POST
+query: {}
+params: {
+  "id": "969c43be-fd91-4ca7-b0e7-67bf016c7ded"
+}
+body: {
+  "title": "Autotest task",
+  "order": 0,
+  "description": "Lorem ipsum",
+  "userId": null,
+  "boardId": null,
+  "columnId": null
+}
+
+time: Wed Oct 28 2020 23:52:15 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards
+method: POST
+query: {}
+params: {}
+body: {
+  "title": "Autotest board",
+  "columns": [
+    {
+      "title": "Backlog",
+      "order": 1
+    },
+    {
+      "title": "Sprint",
+      "order": 2
+    }
+  ]
+}
+
+time: Wed Oct 28 2020 23:52:15 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/users
+method: POST
+query: {}
+params: {}
+body: {
+  "name": "TEST_USER",
+  "login": "test_user",
+  "password": "T35t_P@55w0rd"
+}
+
+time: Wed Oct 28 2020 23:52:15 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/969c43be-fd91-4ca7-b0e7-67bf016c7ded/tasks/825ed051-fae5-4a28-8df1-fd10ba0f3b24
+method: PUT
+query: {}
+params: {
+  "id": "969c43be-fd91-4ca7-b0e7-67bf016c7ded",
+  "idTask": "825ed051-fae5-4a28-8df1-fd10ba0f3b24"
+}
+body: {
+  "_id": "5f99d9ffda40b60640e63cf8",
+  "title": "Autotest updated task",
+  "order": 0,
+  "description": "Lorem ipsum",
+  "userId": null,
+  "boardId": "969c43be-fd91-4ca7-b0e7-67bf016c7ded",
+  "columnId": null,
+  "id": "825ed051-fae5-4a28-8df1-fd10ba0f3b24"
+}
+
+time: Wed Oct 28 2020 23:52:15 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/3e6bbadb-9f31-4752-b115-3917cffee3bd
+method: PUT
+query: {}
+params: {
+  "id": "3e6bbadb-9f31-4752-b115-3917cffee3bd"
+}
+body: {
+  "_id": "5f99d9ffda40b60640e63cf9",
+  "title": "Autotest updated board",
+  "columns": [
+    {
+      "_id": "5f99d9ffda40b60640e63cfa",
+      "title": "Backlog",
+      "order": 1,
+      "id": "b908b64c-fbae-4367-bd2b-a6b83114b9e2"
+    },
+    {
+      "_id": "5f99d9ffda40b60640e63cfb",
+      "title": "Sprint",
+      "order": 2,
+      "id": "68085b29-f988-4099-8166-5d51877bf438"
+    }
+  ],
+  "id": "3e6bbadb-9f31-4752-b115-3917cffee3bd"
+}
+
+time: Wed Oct 28 2020 23:52:15 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/users/5501f699-64ec-4548-ad59-dd435263419f
+method: DELETE
+query: {}
+params: {
+  "id": "5501f699-64ec-4548-ad59-dd435263419f"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:52:16 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/969c43be-fd91-4ca7-b0e7-67bf016c7ded/tasks/825ed051-fae5-4a28-8df1-fd10ba0f3b24
+method: GET
+query: {}
+params: {
+  "id": "969c43be-fd91-4ca7-b0e7-67bf016c7ded",
+  "idTask": "825ed051-fae5-4a28-8df1-fd10ba0f3b24"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:52:16 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/3e6bbadb-9f31-4752-b115-3917cffee3bd
+method: GET
+query: {}
+params: {
+  "id": "3e6bbadb-9f31-4752-b115-3917cffee3bd"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:52:16 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/969c43be-fd91-4ca7-b0e7-67bf016c7ded/tasks/25d1f2bc-d408-4ac6-bafc-071d66d7e35c
+method: GET
+query: {}
+params: {
+  "id": "969c43be-fd91-4ca7-b0e7-67bf016c7ded",
+  "idTask": "25d1f2bc-d408-4ac6-bafc-071d66d7e35c"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:52:16 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/3e6bbadb-9f31-4752-b115-3917cffee3bd
+method: DELETE
+query: {}
+params: {
+  "id": "3e6bbadb-9f31-4752-b115-3917cffee3bd"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:52:16 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/969c43be-fd91-4ca7-b0e7-67bf016c7ded/tasks/25d1f2bc-d408-4ac6-bafc-071d66d7e35c
+method: DELETE
+query: {}
+params: {
+  "id": "969c43be-fd91-4ca7-b0e7-67bf016c7ded",
+  "idTask": "25d1f2bc-d408-4ac6-bafc-071d66d7e35c"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:52:16 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/users
+method: POST
+query: {}
+params: {}
+body: {
+  "name": "TEST_USER",
+  "login": "test_user",
+  "password": "T35t_P@55w0rd"
+}
+
+time: Wed Oct 28 2020 23:52:16 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/969c43be-fd91-4ca7-b0e7-67bf016c7ded/tasks/25d1f2bc-d408-4ac6-bafc-071d66d7e35c
+method: GET
+query: {}
+params: {
+  "id": "969c43be-fd91-4ca7-b0e7-67bf016c7ded",
+  "idTask": "25d1f2bc-d408-4ac6-bafc-071d66d7e35c"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:52:16 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards
+method: POST
+query: {}
+params: {}
+body: {
+  "title": "Autotest board",
+  "columns": [
+    {
+      "title": "Backlog",
+      "order": 1
+    },
+    {
+      "title": "Sprint",
+      "order": 2
+    }
+  ]
+}
+
+time: Wed Oct 28 2020 23:52:16 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/users/d39dd2e1-e13d-4ba4-a9d3-facdc3650c44
+method: PUT
+query: {}
+params: {
+  "id": "d39dd2e1-e13d-4ba4-a9d3-facdc3650c44"
+}
+body: {
+  "name": "Autotest updated TEST_USER",
+  "login": "test_user",
+  "password": "T35t_P@55w0rd",
+  "id": "d39dd2e1-e13d-4ba4-a9d3-facdc3650c44"
+}
+
+time: Wed Oct 28 2020 23:52:16 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/969c43be-fd91-4ca7-b0e7-67bf016c7ded
+method: DELETE
+query: {}
+params: {
+  "id": "969c43be-fd91-4ca7-b0e7-67bf016c7ded"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:52:16 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/0c50631f-88be-4a8a-9dad-256a596bb102
+method: DELETE
+query: {}
+params: {
+  "id": "0c50631f-88be-4a8a-9dad-256a596bb102"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:52:16 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/users/d39dd2e1-e13d-4ba4-a9d3-facdc3650c44
+method: GET
+query: {}
+params: {
+  "id": "d39dd2e1-e13d-4ba4-a9d3-facdc3650c44"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:52:16 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/0c50631f-88be-4a8a-9dad-256a596bb102
+method: GET
+query: {}
+params: {
+  "id": "0c50631f-88be-4a8a-9dad-256a596bb102"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:52:16 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/users/d39dd2e1-e13d-4ba4-a9d3-facdc3650c44
+method: DELETE
+query: {}
+params: {
+  "id": "d39dd2e1-e13d-4ba4-a9d3-facdc3650c44"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:52:16 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards
+method: POST
+query: {}
+params: {}
+body: {
+  "title": "Autotest board",
+  "columns": [
+    {
+      "title": "Backlog",
+      "order": 1
+    },
+    {
+      "title": "Sprint",
+      "order": 2
+    }
+  ]
+}
+
+time: Wed Oct 28 2020 23:52:16 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/d68de8c2-c605-43aa-9c00-1afd01871638/tasks
+method: POST
+query: {}
+params: {
+  "id": "d68de8c2-c605-43aa-9c00-1afd01871638"
+}
+body: {
+  "title": "Task #1",
+  "order": 1,
+  "description": "Lorem ipsum",
+  "boardId": "d68de8c2-c605-43aa-9c00-1afd01871638",
+  "userId": null,
+  "columnId": null
+}
+
+time: Wed Oct 28 2020 23:52:16 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/d68de8c2-c605-43aa-9c00-1afd01871638/tasks
+method: POST
+query: {}
+params: {
+  "id": "d68de8c2-c605-43aa-9c00-1afd01871638"
+}
+body: {
+  "title": "Task #3",
+  "order": 3,
+  "description": "Lorem ipsum",
+  "boardId": "d68de8c2-c605-43aa-9c00-1afd01871638",
+  "userId": null,
+  "columnId": null
+}
+
+time: Wed Oct 28 2020 23:52:16 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/d68de8c2-c605-43aa-9c00-1afd01871638/tasks
+method: POST
+query: {}
+params: {
+  "id": "d68de8c2-c605-43aa-9c00-1afd01871638"
+}
+body: {
+  "title": "Task #2",
+  "order": 2,
+  "description": "Lorem ipsum",
+  "boardId": "d68de8c2-c605-43aa-9c00-1afd01871638",
+  "userId": null,
+  "columnId": null
+}
+
+time: Wed Oct 28 2020 23:52:16 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/d68de8c2-c605-43aa-9c00-1afd01871638/tasks
+method: POST
+query: {}
+params: {
+  "id": "d68de8c2-c605-43aa-9c00-1afd01871638"
+}
+body: {
+  "title": "Task #4",
+  "order": 4,
+  "description": "Lorem ipsum",
+  "boardId": "d68de8c2-c605-43aa-9c00-1afd01871638",
+  "userId": null,
+  "columnId": null
+}
+
+time: Wed Oct 28 2020 23:52:16 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/d68de8c2-c605-43aa-9c00-1afd01871638/tasks
+method: POST
+query: {}
+params: {
+  "id": "d68de8c2-c605-43aa-9c00-1afd01871638"
+}
+body: {
+  "title": "Task #5",
+  "order": 5,
+  "description": "Lorem ipsum",
+  "boardId": "d68de8c2-c605-43aa-9c00-1afd01871638",
+  "userId": null,
+  "columnId": null
+}
+
+time: Wed Oct 28 2020 23:52:16 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/users
+method: POST
+query: {}
+params: {}
+body: {
+  "name": "TEST_USER",
+  "login": "test_user",
+  "password": "T35t_P@55w0rd"
+}
+
+time: Wed Oct 28 2020 23:52:16 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/d68de8c2-c605-43aa-9c00-1afd01871638/tasks/91d517bb-f239-47b6-9298-1f3377fe4750
+method: GET
+query: {}
+params: {
+  "id": "d68de8c2-c605-43aa-9c00-1afd01871638",
+  "idTask": "91d517bb-f239-47b6-9298-1f3377fe4750"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:52:16 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/d68de8c2-c605-43aa-9c00-1afd01871638/tasks/715b1cd5-0e15-4032-920a-5cf50aacbf27
+method: GET
+query: {}
+params: {
+  "id": "d68de8c2-c605-43aa-9c00-1afd01871638",
+  "idTask": "715b1cd5-0e15-4032-920a-5cf50aacbf27"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:52:16 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/d68de8c2-c605-43aa-9c00-1afd01871638/tasks/8b87962b-4b32-4aa5-ab13-131f77298249
+method: GET
+query: {}
+params: {
+  "id": "d68de8c2-c605-43aa-9c00-1afd01871638",
+  "idTask": "8b87962b-4b32-4aa5-ab13-131f77298249"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:52:16 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/d68de8c2-c605-43aa-9c00-1afd01871638/tasks/8013ba59-d944-4ff2-adca-4d6f6f860c90
+method: GET
+query: {}
+params: {
+  "id": "d68de8c2-c605-43aa-9c00-1afd01871638",
+  "idTask": "8013ba59-d944-4ff2-adca-4d6f6f860c90"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:52:16 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/d68de8c2-c605-43aa-9c00-1afd01871638/tasks/7298a2a9-a9b5-4049-8e6e-9b6bb449eae7
+method: GET
+query: {}
+params: {
+  "id": "d68de8c2-c605-43aa-9c00-1afd01871638",
+  "idTask": "7298a2a9-a9b5-4049-8e6e-9b6bb449eae7"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:52:16 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/users/518410ec-7ebe-4795-93e6-90521685afd2
+method: DELETE
+query: {}
+params: {
+  "id": "518410ec-7ebe-4795-93e6-90521685afd2"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:52:16 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/d68de8c2-c605-43aa-9c00-1afd01871638
+method: DELETE
+query: {}
+params: {
+  "id": "d68de8c2-c605-43aa-9c00-1afd01871638"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:52:17 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/d68de8c2-c605-43aa-9c00-1afd01871638/tasks/8013ba59-d944-4ff2-adca-4d6f6f860c90
+method: GET
+query: {}
+params: {
+  "id": "d68de8c2-c605-43aa-9c00-1afd01871638",
+  "idTask": "8013ba59-d944-4ff2-adca-4d6f6f860c90"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:52:17 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/d68de8c2-c605-43aa-9c00-1afd01871638/tasks/8b87962b-4b32-4aa5-ab13-131f77298249
+method: GET
+query: {}
+params: {
+  "id": "d68de8c2-c605-43aa-9c00-1afd01871638",
+  "idTask": "8b87962b-4b32-4aa5-ab13-131f77298249"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:52:17 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/d68de8c2-c605-43aa-9c00-1afd01871638/tasks/91d517bb-f239-47b6-9298-1f3377fe4750
+method: GET
+query: {}
+params: {
+  "id": "d68de8c2-c605-43aa-9c00-1afd01871638",
+  "idTask": "91d517bb-f239-47b6-9298-1f3377fe4750"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:52:17 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/d68de8c2-c605-43aa-9c00-1afd01871638/tasks/7298a2a9-a9b5-4049-8e6e-9b6bb449eae7
+method: GET
+query: {}
+params: {
+  "id": "d68de8c2-c605-43aa-9c00-1afd01871638",
+  "idTask": "7298a2a9-a9b5-4049-8e6e-9b6bb449eae7"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:52:17 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/d68de8c2-c605-43aa-9c00-1afd01871638/tasks/715b1cd5-0e15-4032-920a-5cf50aacbf27
+method: GET
+query: {}
+params: {
+  "id": "d68de8c2-c605-43aa-9c00-1afd01871638",
+  "idTask": "715b1cd5-0e15-4032-920a-5cf50aacbf27"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:52:17 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/696149a8-e0d2-4dbb-8cbb-ea62dbfb533c
+method: DELETE
+query: {}
+params: {
+  "id": "696149a8-e0d2-4dbb-8cbb-ea62dbfb533c"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:52:17 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/users
+method: POST
+query: {}
+params: {}
+body: {
+  "name": "TEST_USER",
+  "login": "test_user",
+  "password": "T35t_P@55w0rd"
+}
+
+time: Wed Oct 28 2020 23:52:17 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards
+method: POST
+query: {}
+params: {}
+body: {
+  "title": "Autotest board",
+  "columns": [
+    {
+      "title": "Backlog",
+      "order": 1
+    },
+    {
+      "title": "Sprint",
+      "order": 2
+    }
+  ]
+}
+
+time: Wed Oct 28 2020 23:52:17 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/21209a4d-0089-42d6-908d-855417f7cf37/tasks
+method: POST
+query: {}
+params: {
+  "id": "21209a4d-0089-42d6-908d-855417f7cf37"
+}
+body: {
+  "title": "Task #1",
+  "order": 1,
+  "description": "Lorem ipsum",
+  "userId": "363ed90b-ea64-407f-8039-6e56a8bbe75c",
+  "boardId": "21209a4d-0089-42d6-908d-855417f7cf37"
+}
+
+time: Wed Oct 28 2020 23:52:17 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/21209a4d-0089-42d6-908d-855417f7cf37/tasks
+method: POST
+query: {}
+params: {
+  "id": "21209a4d-0089-42d6-908d-855417f7cf37"
+}
+body: {
+  "title": "Task #2",
+  "order": 2,
+  "description": "Lorem ipsum",
+  "userId": "363ed90b-ea64-407f-8039-6e56a8bbe75c",
+  "boardId": "21209a4d-0089-42d6-908d-855417f7cf37"
+}
+
+time: Wed Oct 28 2020 23:52:17 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/users/363ed90b-ea64-407f-8039-6e56a8bbe75c
+method: DELETE
+query: {}
+params: {
+  "id": "363ed90b-ea64-407f-8039-6e56a8bbe75c"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:52:17 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/21209a4d-0089-42d6-908d-855417f7cf37/tasks/58f700c9-d332-4838-9dd8-dc1a95ba1133
+method: GET
+query: {}
+params: {
+  "id": "21209a4d-0089-42d6-908d-855417f7cf37",
+  "idTask": "58f700c9-d332-4838-9dd8-dc1a95ba1133"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:52:17 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/21209a4d-0089-42d6-908d-855417f7cf37/tasks/60dbe327-e533-4a97-bbea-9d7283dacfb5
+method: GET
+query: {}
+params: {
+  "id": "21209a4d-0089-42d6-908d-855417f7cf37",
+  "idTask": "60dbe327-e533-4a97-bbea-9d7283dacfb5"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:52:18 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/21209a4d-0089-42d6-908d-855417f7cf37/tasks/58f700c9-d332-4838-9dd8-dc1a95ba1133
+method: DELETE
+query: {}
+params: {
+  "id": "21209a4d-0089-42d6-908d-855417f7cf37",
+  "idTask": "58f700c9-d332-4838-9dd8-dc1a95ba1133"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:52:18 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/21209a4d-0089-42d6-908d-855417f7cf37/tasks/60dbe327-e533-4a97-bbea-9d7283dacfb5
+method: DELETE
+query: {}
+params: {
+  "id": "21209a4d-0089-42d6-908d-855417f7cf37",
+  "idTask": "60dbe327-e533-4a97-bbea-9d7283dacfb5"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:52:18 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/21209a4d-0089-42d6-908d-855417f7cf37
+method: DELETE
+query: {}
+params: {
+  "id": "21209a4d-0089-42d6-908d-855417f7cf37"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:56:19 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/users
+method: GET
+query: {}
+params: {}
+body: {}
+
+time: Wed Oct 28 2020 23:56:20 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards
+method: POST
+query: {}
+params: {}
+body: {
+  "title": "Autotest board",
+  "columns": [
+    {
+      "title": "Backlog",
+      "order": 1
+    },
+    {
+      "title": "Sprint",
+      "order": 2
+    }
+  ]
+}
+
+time: Wed Oct 28 2020 23:56:20 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards
+method: POST
+query: {}
+params: {}
+body: {
+  "title": "Autotest board",
+  "columns": [
+    {
+      "title": "Backlog",
+      "order": 1
+    },
+    {
+      "title": "Sprint",
+      "order": 2
+    }
+  ]
+}
+
+time: Wed Oct 28 2020 23:56:20 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/users
+method: POST
+query: {}
+params: {}
+body: {
+  "name": "TEST_USER",
+  "login": "test_user",
+  "password": "T35t_P@55w0rd"
+}
+
+time: Wed Oct 28 2020 23:56:20 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/3e69aea5-5fd1-4a4f-9026-5fd3898db153/tasks
+method: POST
+query: {}
+params: {
+  "id": "3e69aea5-5fd1-4a4f-9026-5fd3898db153"
+}
+body: {
+  "title": "Autotest task",
+  "order": 0,
+  "description": "Lorem ipsum",
+  "userId": null,
+  "boardId": null,
+  "columnId": null
+}
+
+time: Wed Oct 28 2020 23:56:20 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards
+method: GET
+query: {}
+params: {}
+body: {}
+
+time: Wed Oct 28 2020 23:56:20 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/users/7b1054c4-8ebf-48aa-9f9c-ba29f0f33ec5
+method: GET
+query: {}
+params: {
+  "id": "7b1054c4-8ebf-48aa-9f9c-ba29f0f33ec5"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:56:20 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/3e69aea5-5fd1-4a4f-9026-5fd3898db153/tasks
+method: GET
+query: {}
+params: {
+  "id": "3e69aea5-5fd1-4a4f-9026-5fd3898db153"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:56:20 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards
+method: GET
+query: {}
+params: {}
+body: {}
+
+time: Wed Oct 28 2020 23:56:20 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/users/7b1054c4-8ebf-48aa-9f9c-ba29f0f33ec5
+method: DELETE
+query: {}
+params: {
+  "id": "7b1054c4-8ebf-48aa-9f9c-ba29f0f33ec5"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:56:21 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/3e69aea5-5fd1-4a4f-9026-5fd3898db153
+method: GET
+query: {}
+params: {
+  "id": "3e69aea5-5fd1-4a4f-9026-5fd3898db153"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:56:21 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/3e69aea5-5fd1-4a4f-9026-5fd3898db153/tasks
+method: GET
+query: {}
+params: {
+  "id": "3e69aea5-5fd1-4a4f-9026-5fd3898db153"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:56:21 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards
+method: POST
+query: {}
+params: {}
+body: {
+  "title": "Autotest board",
+  "columns": [
+    {
+      "title": "Backlog",
+      "order": 1
+    },
+    {
+      "title": "Sprint",
+      "order": 2
+    }
+  ]
+}
+
+time: Wed Oct 28 2020 23:56:21 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/6f463e1f-92dd-41fd-9c89-e9408f72d3a2/tasks/5b4341f7-2dc0-47ac-be04-02dbab83ba0d
+method: GET
+query: {}
+params: {
+  "id": "6f463e1f-92dd-41fd-9c89-e9408f72d3a2",
+  "idTask": "5b4341f7-2dc0-47ac-be04-02dbab83ba0d"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:56:21 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/661a2473-21d1-4d46-8b72-76c3db1e39cf
+method: DELETE
+query: {}
+params: {
+  "id": "661a2473-21d1-4d46-8b72-76c3db1e39cf"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:56:21 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/users
+method: POST
+query: {}
+params: {}
+body: {
+  "name": "TEST_USER",
+  "login": "test_user",
+  "password": "T35t_P@55w0rd"
+}
+
+time: Wed Oct 28 2020 23:56:21 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/3e69aea5-5fd1-4a4f-9026-5fd3898db153/tasks
+method: POST
+query: {}
+params: {
+  "id": "3e69aea5-5fd1-4a4f-9026-5fd3898db153"
+}
+body: {
+  "title": "Autotest task",
+  "order": 0,
+  "description": "Lorem ipsum",
+  "userId": null,
+  "boardId": null,
+  "columnId": null
+}
+
+time: Wed Oct 28 2020 23:56:21 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/users/8486e861-a4ed-43ef-b695-a57be6462b64
+method: DELETE
+query: {}
+params: {
+  "id": "8486e861-a4ed-43ef-b695-a57be6462b64"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:56:21 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/3e69aea5-5fd1-4a4f-9026-5fd3898db153/tasks/7ab391f9-a518-45b7-b9b6-df9e9db530fc
+method: DELETE
+query: {}
+params: {
+  "id": "3e69aea5-5fd1-4a4f-9026-5fd3898db153",
+  "idTask": "7ab391f9-a518-45b7-b9b6-df9e9db530fc"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:56:21 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards
+method: POST
+query: {}
+params: {}
+body: {
+  "title": "Autotest board",
+  "columns": [
+    {
+      "title": "Backlog",
+      "order": 1
+    },
+    {
+      "title": "Sprint",
+      "order": 2
+    }
+  ]
+}
+
+time: Wed Oct 28 2020 23:56:21 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/3e69aea5-5fd1-4a4f-9026-5fd3898db153/tasks
+method: POST
+query: {}
+params: {
+  "id": "3e69aea5-5fd1-4a4f-9026-5fd3898db153"
+}
+body: {
+  "title": "Autotest task",
+  "order": 0,
+  "description": "Lorem ipsum",
+  "userId": null,
+  "boardId": null,
+  "columnId": null
+}
+
+time: Wed Oct 28 2020 23:56:21 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/42ea6522-52f5-4d09-8e42-b09d5112c7cf
+method: PUT
+query: {}
+params: {
+  "id": "42ea6522-52f5-4d09-8e42-b09d5112c7cf"
+}
+body: {
+  "_id": "5f99daf5f6b3e832447b6534",
+  "title": "Autotest updated board",
+  "columns": [
+    {
+      "_id": "5f99daf5f6b3e832447b6535",
+      "title": "Backlog",
+      "order": 1,
+      "id": "2f3ec390-9b08-4777-98c3-49896dedfb84"
+    },
+    {
+      "_id": "5f99daf5f6b3e832447b6536",
+      "title": "Sprint",
+      "order": 2,
+      "id": "82ca7c7f-d315-4707-9ed0-95c138ff6c70"
+    }
+  ],
+  "id": "42ea6522-52f5-4d09-8e42-b09d5112c7cf"
+}
+
+time: Wed Oct 28 2020 23:56:21 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/3e69aea5-5fd1-4a4f-9026-5fd3898db153/tasks/9acb59d9-9d75-4b6f-b36a-1a5cddd1cb78
+method: PUT
+query: {}
+params: {
+  "id": "3e69aea5-5fd1-4a4f-9026-5fd3898db153",
+  "idTask": "9acb59d9-9d75-4b6f-b36a-1a5cddd1cb78"
+}
+body: {
+  "_id": "5f99daf5f6b3e832447b6537",
+  "title": "Autotest updated task",
+  "order": 0,
+  "description": "Lorem ipsum",
+  "userId": null,
+  "boardId": "3e69aea5-5fd1-4a4f-9026-5fd3898db153",
+  "columnId": null,
+  "id": "9acb59d9-9d75-4b6f-b36a-1a5cddd1cb78"
+}
+
+time: Wed Oct 28 2020 23:56:21 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/users
+method: POST
+query: {}
+params: {}
+body: {
+  "name": "TEST_USER",
+  "login": "test_user",
+  "password": "T35t_P@55w0rd"
+}
+
+time: Wed Oct 28 2020 23:56:21 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/42ea6522-52f5-4d09-8e42-b09d5112c7cf
+method: GET
+query: {}
+params: {
+  "id": "42ea6522-52f5-4d09-8e42-b09d5112c7cf"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:56:21 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/3e69aea5-5fd1-4a4f-9026-5fd3898db153/tasks/9acb59d9-9d75-4b6f-b36a-1a5cddd1cb78
+method: GET
+query: {}
+params: {
+  "id": "3e69aea5-5fd1-4a4f-9026-5fd3898db153",
+  "idTask": "9acb59d9-9d75-4b6f-b36a-1a5cddd1cb78"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:56:21 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/users/5cbf5c7a-ece3-46a7-b1f3-c116cdaa4f9b
+method: PUT
+query: {}
+params: {
+  "id": "5cbf5c7a-ece3-46a7-b1f3-c116cdaa4f9b"
+}
+body: {
+  "name": "Autotest updated TEST_USER",
+  "login": "test_user",
+  "password": "T35t_P@55w0rd",
+  "id": "5cbf5c7a-ece3-46a7-b1f3-c116cdaa4f9b"
+}
+
+time: Wed Oct 28 2020 23:56:22 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/3e69aea5-5fd1-4a4f-9026-5fd3898db153/tasks/262021d4-d9e1-484d-a514-b091c403ab06
+method: GET
+query: {}
+params: {
+  "id": "3e69aea5-5fd1-4a4f-9026-5fd3898db153",
+  "idTask": "262021d4-d9e1-484d-a514-b091c403ab06"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:56:22 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/42ea6522-52f5-4d09-8e42-b09d5112c7cf
+method: DELETE
+query: {}
+params: {
+  "id": "42ea6522-52f5-4d09-8e42-b09d5112c7cf"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:56:22 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/users/5cbf5c7a-ece3-46a7-b1f3-c116cdaa4f9b
+method: GET
+query: {}
+params: {
+  "id": "5cbf5c7a-ece3-46a7-b1f3-c116cdaa4f9b"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:56:22 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/3e69aea5-5fd1-4a4f-9026-5fd3898db153/tasks/262021d4-d9e1-484d-a514-b091c403ab06
+method: DELETE
+query: {}
+params: {
+  "id": "3e69aea5-5fd1-4a4f-9026-5fd3898db153",
+  "idTask": "262021d4-d9e1-484d-a514-b091c403ab06"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:56:22 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/users/5cbf5c7a-ece3-46a7-b1f3-c116cdaa4f9b
+method: DELETE
+query: {}
+params: {
+  "id": "5cbf5c7a-ece3-46a7-b1f3-c116cdaa4f9b"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:56:22 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/3e69aea5-5fd1-4a4f-9026-5fd3898db153/tasks/262021d4-d9e1-484d-a514-b091c403ab06
+method: GET
+query: {}
+params: {
+  "id": "3e69aea5-5fd1-4a4f-9026-5fd3898db153",
+  "idTask": "262021d4-d9e1-484d-a514-b091c403ab06"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:56:22 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards
+method: POST
+query: {}
+params: {}
+body: {
+  "title": "Autotest board",
+  "columns": [
+    {
+      "title": "Backlog",
+      "order": 1
+    },
+    {
+      "title": "Sprint",
+      "order": 2
+    }
+  ]
+}
+
+time: Wed Oct 28 2020 23:56:22 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/3e69aea5-5fd1-4a4f-9026-5fd3898db153
+method: DELETE
+query: {}
+params: {
+  "id": "3e69aea5-5fd1-4a4f-9026-5fd3898db153"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:56:22 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/b1ea9622-eb34-4d23-b0a7-5657ac70ad73
+method: DELETE
+query: {}
+params: {
+  "id": "b1ea9622-eb34-4d23-b0a7-5657ac70ad73"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:56:22 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/users
+method: POST
+query: {}
+params: {}
+body: {
+  "name": "TEST_USER",
+  "login": "test_user",
+  "password": "T35t_P@55w0rd"
+}
+
+time: Wed Oct 28 2020 23:56:22 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/users/1aaaf9b9-465a-4ad3-8d35-8e83ed01cf0c
+method: DELETE
+query: {}
+params: {
+  "id": "1aaaf9b9-465a-4ad3-8d35-8e83ed01cf0c"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:56:22 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/b1ea9622-eb34-4d23-b0a7-5657ac70ad73
+method: GET
+query: {}
+params: {
+  "id": "b1ea9622-eb34-4d23-b0a7-5657ac70ad73"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:56:22 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards
+method: POST
+query: {}
+params: {}
+body: {
+  "title": "Autotest board",
+  "columns": [
+    {
+      "title": "Backlog",
+      "order": 1
+    },
+    {
+      "title": "Sprint",
+      "order": 2
+    }
+  ]
+}
+
+time: Wed Oct 28 2020 23:56:22 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/0b262a2b-582a-40d5-bae7-b7c90f7e0d10/tasks
+method: POST
+query: {}
+params: {
+  "id": "0b262a2b-582a-40d5-bae7-b7c90f7e0d10"
+}
+body: {
+  "title": "Task #1",
+  "order": 1,
+  "description": "Lorem ipsum",
+  "boardId": "0b262a2b-582a-40d5-bae7-b7c90f7e0d10",
+  "userId": null,
+  "columnId": null
+}
+
+time: Wed Oct 28 2020 23:56:22 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/0b262a2b-582a-40d5-bae7-b7c90f7e0d10/tasks
+method: POST
+query: {}
+params: {
+  "id": "0b262a2b-582a-40d5-bae7-b7c90f7e0d10"
+}
+body: {
+  "title": "Task #2",
+  "order": 2,
+  "description": "Lorem ipsum",
+  "boardId": "0b262a2b-582a-40d5-bae7-b7c90f7e0d10",
+  "userId": null,
+  "columnId": null
+}
+
+time: Wed Oct 28 2020 23:56:22 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/0b262a2b-582a-40d5-bae7-b7c90f7e0d10/tasks
+method: POST
+query: {}
+params: {
+  "id": "0b262a2b-582a-40d5-bae7-b7c90f7e0d10"
+}
+body: {
+  "title": "Task #4",
+  "order": 4,
+  "description": "Lorem ipsum",
+  "boardId": "0b262a2b-582a-40d5-bae7-b7c90f7e0d10",
+  "userId": null,
+  "columnId": null
+}
+
+time: Wed Oct 28 2020 23:56:22 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/0b262a2b-582a-40d5-bae7-b7c90f7e0d10/tasks
+method: POST
+query: {}
+params: {
+  "id": "0b262a2b-582a-40d5-bae7-b7c90f7e0d10"
+}
+body: {
+  "title": "Task #3",
+  "order": 3,
+  "description": "Lorem ipsum",
+  "boardId": "0b262a2b-582a-40d5-bae7-b7c90f7e0d10",
+  "userId": null,
+  "columnId": null
+}
+
+time: Wed Oct 28 2020 23:56:22 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/0b262a2b-582a-40d5-bae7-b7c90f7e0d10/tasks
+method: POST
+query: {}
+params: {
+  "id": "0b262a2b-582a-40d5-bae7-b7c90f7e0d10"
+}
+body: {
+  "title": "Task #5",
+  "order": 5,
+  "description": "Lorem ipsum",
+  "boardId": "0b262a2b-582a-40d5-bae7-b7c90f7e0d10",
+  "userId": null,
+  "columnId": null
+}
+
+time: Wed Oct 28 2020 23:56:23 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/users
+method: POST
+query: {}
+params: {}
+body: {
+  "name": "TEST_USER",
+  "login": "test_user",
+  "password": "T35t_P@55w0rd"
+}
+
+time: Wed Oct 28 2020 23:56:23 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/0b262a2b-582a-40d5-bae7-b7c90f7e0d10/tasks/cdb8d715-276c-44a6-a6c1-a56d26b04e51
+method: GET
+query: {}
+params: {
+  "id": "0b262a2b-582a-40d5-bae7-b7c90f7e0d10",
+  "idTask": "cdb8d715-276c-44a6-a6c1-a56d26b04e51"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:56:23 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/0b262a2b-582a-40d5-bae7-b7c90f7e0d10/tasks/39e15f96-9187-42f4-b6b2-0ede63142629
+method: GET
+query: {}
+params: {
+  "id": "0b262a2b-582a-40d5-bae7-b7c90f7e0d10",
+  "idTask": "39e15f96-9187-42f4-b6b2-0ede63142629"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:56:23 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/0b262a2b-582a-40d5-bae7-b7c90f7e0d10/tasks/00d6c89c-bbce-420b-b17a-43808ccd9c7b
+method: GET
+query: {}
+params: {
+  "id": "0b262a2b-582a-40d5-bae7-b7c90f7e0d10",
+  "idTask": "00d6c89c-bbce-420b-b17a-43808ccd9c7b"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:56:23 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/0b262a2b-582a-40d5-bae7-b7c90f7e0d10/tasks/64faa36a-9dd5-4446-8530-958f0062c0cd
+method: GET
+query: {}
+params: {
+  "id": "0b262a2b-582a-40d5-bae7-b7c90f7e0d10",
+  "idTask": "64faa36a-9dd5-4446-8530-958f0062c0cd"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:56:23 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/0b262a2b-582a-40d5-bae7-b7c90f7e0d10/tasks/c841384a-529f-4fe4-ac7b-4becf90a43b0
+method: GET
+query: {}
+params: {
+  "id": "0b262a2b-582a-40d5-bae7-b7c90f7e0d10",
+  "idTask": "c841384a-529f-4fe4-ac7b-4becf90a43b0"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:56:23 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards
+method: POST
+query: {}
+params: {}
+body: {
+  "title": "Autotest board",
+  "columns": [
+    {
+      "title": "Backlog",
+      "order": 1
+    },
+    {
+      "title": "Sprint",
+      "order": 2
+    }
+  ]
+}
+
+time: Wed Oct 28 2020 23:56:23 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/0b262a2b-582a-40d5-bae7-b7c90f7e0d10
+method: DELETE
+query: {}
+params: {
+  "id": "0b262a2b-582a-40d5-bae7-b7c90f7e0d10"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:56:23 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/25b21769-5caa-4531-b40b-5d849ee61dfe/tasks
+method: POST
+query: {}
+params: {
+  "id": "25b21769-5caa-4531-b40b-5d849ee61dfe"
+}
+body: {
+  "title": "Task #1",
+  "order": 1,
+  "description": "Lorem ipsum",
+  "userId": "8c5ab246-28e5-461d-a163-1a6aa9a24a05",
+  "boardId": "25b21769-5caa-4531-b40b-5d849ee61dfe"
+}
+
+time: Wed Oct 28 2020 23:56:23 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/25b21769-5caa-4531-b40b-5d849ee61dfe/tasks
+method: POST
+query: {}
+params: {
+  "id": "25b21769-5caa-4531-b40b-5d849ee61dfe"
+}
+body: {
+  "title": "Task #2",
+  "order": 2,
+  "description": "Lorem ipsum",
+  "userId": "8c5ab246-28e5-461d-a163-1a6aa9a24a05",
+  "boardId": "25b21769-5caa-4531-b40b-5d849ee61dfe"
+}
+
+time: Wed Oct 28 2020 23:56:23 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/users/8c5ab246-28e5-461d-a163-1a6aa9a24a05
+method: DELETE
+query: {}
+params: {
+  "id": "8c5ab246-28e5-461d-a163-1a6aa9a24a05"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:56:23 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/0b262a2b-582a-40d5-bae7-b7c90f7e0d10/tasks/cdb8d715-276c-44a6-a6c1-a56d26b04e51
+method: GET
+query: {}
+params: {
+  "id": "0b262a2b-582a-40d5-bae7-b7c90f7e0d10",
+  "idTask": "cdb8d715-276c-44a6-a6c1-a56d26b04e51"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:56:23 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/0b262a2b-582a-40d5-bae7-b7c90f7e0d10/tasks/00d6c89c-bbce-420b-b17a-43808ccd9c7b
+method: GET
+query: {}
+params: {
+  "id": "0b262a2b-582a-40d5-bae7-b7c90f7e0d10",
+  "idTask": "00d6c89c-bbce-420b-b17a-43808ccd9c7b"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:56:23 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/0b262a2b-582a-40d5-bae7-b7c90f7e0d10/tasks/39e15f96-9187-42f4-b6b2-0ede63142629
+method: GET
+query: {}
+params: {
+  "id": "0b262a2b-582a-40d5-bae7-b7c90f7e0d10",
+  "idTask": "39e15f96-9187-42f4-b6b2-0ede63142629"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:56:23 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/0b262a2b-582a-40d5-bae7-b7c90f7e0d10/tasks/64faa36a-9dd5-4446-8530-958f0062c0cd
+method: GET
+query: {}
+params: {
+  "id": "0b262a2b-582a-40d5-bae7-b7c90f7e0d10",
+  "idTask": "64faa36a-9dd5-4446-8530-958f0062c0cd"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:56:23 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/0b262a2b-582a-40d5-bae7-b7c90f7e0d10/tasks/c841384a-529f-4fe4-ac7b-4becf90a43b0
+method: GET
+query: {}
+params: {
+  "id": "0b262a2b-582a-40d5-bae7-b7c90f7e0d10",
+  "idTask": "c841384a-529f-4fe4-ac7b-4becf90a43b0"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:56:23 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/cedfa3ef-3323-4b24-b753-a4a1550a136c
+method: DELETE
+query: {}
+params: {
+  "id": "cedfa3ef-3323-4b24-b753-a4a1550a136c"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:56:23 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/25b21769-5caa-4531-b40b-5d849ee61dfe/tasks/a4b6413a-8638-44c9-9ce8-b528034bd95c
+method: GET
+query: {}
+params: {
+  "id": "25b21769-5caa-4531-b40b-5d849ee61dfe",
+  "idTask": "a4b6413a-8638-44c9-9ce8-b528034bd95c"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:56:23 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/25b21769-5caa-4531-b40b-5d849ee61dfe/tasks/54b32fe2-9a11-44a2-9189-95e0c019fabd
+method: GET
+query: {}
+params: {
+  "id": "25b21769-5caa-4531-b40b-5d849ee61dfe",
+  "idTask": "54b32fe2-9a11-44a2-9189-95e0c019fabd"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:56:23 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/25b21769-5caa-4531-b40b-5d849ee61dfe/tasks/a4b6413a-8638-44c9-9ce8-b528034bd95c
+method: DELETE
+query: {}
+params: {
+  "id": "25b21769-5caa-4531-b40b-5d849ee61dfe",
+  "idTask": "a4b6413a-8638-44c9-9ce8-b528034bd95c"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:56:23 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/25b21769-5caa-4531-b40b-5d849ee61dfe/tasks/54b32fe2-9a11-44a2-9189-95e0c019fabd
+method: DELETE
+query: {}
+params: {
+  "id": "25b21769-5caa-4531-b40b-5d849ee61dfe",
+  "idTask": "54b32fe2-9a11-44a2-9189-95e0c019fabd"
+}
+body: {}
+
+time: Wed Oct 28 2020 23:56:24 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/25b21769-5caa-4531-b40b-5d849ee61dfe
+method: DELETE
+query: {}
+params: {
+  "id": "25b21769-5caa-4531-b40b-5d849ee61dfe"
+}
+body: {}
+
