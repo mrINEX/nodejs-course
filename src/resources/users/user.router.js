@@ -21,9 +21,9 @@ router.route('/:id').get(
 
 router.route('/').post(
   handling(async (req, res) => {
-    const user = await usersService.create(new User(req.body));
+    const user = await usersService.create(req.body);
     console.log('[route] post user: ', user);
-    res.status(200).send(user);
+    res.status(200).send(User.toResponse(user));
   })
 );
 
