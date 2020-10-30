@@ -1,6 +1,5 @@
 const router = require('express').Router();
 const User = require('./user.model');
-const Task = require('../tasks/tasks.model');
 const usersService = require('./user.service');
 const { handling } = require('../../common/handling');
 
@@ -43,9 +42,7 @@ router.route('/:id').delete(
     if (!user.deletedCount) {
       res.sendStatus(404);
     } else {
-      await Task.updateOne({ userId: req.params.id }, { userId: null });
-      const use = await User.findOne({ id: req.params.id });
-      res.status(200).send(use);
+      res.sendStatus(200);
     }
   })
 );

@@ -21,7 +21,7 @@ const remove = async id => {
   const res = await User.deleteOne({ id });
   if (!res.deletedCount) throw new Error('user was not deleted');
 
-  await Task.updateOne({ userId: id }, { userId: null });
+  await Task.updateMany({ userId: id }, { userId: null }).exec();
   return res;
 };
 

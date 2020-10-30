@@ -27,8 +27,7 @@ const remove = async id => {
   const res = await Board.deleteOne({ id });
   if (!res.deletedCount) throw new Error('board was not delete');
 
-  // await Task.deleteOne({ boardId: id });
-  await Task.deleteMany({ boardId: id });
+  await Task.deleteMany({ boardId: id }).exec();
   return res;
 };
 
