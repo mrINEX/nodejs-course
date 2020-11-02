@@ -2,6 +2,7 @@ const router = require('express').Router();
 const User = require('./user.model');
 const usersService = require('./user.service');
 const { handling } = require('../../common/handling');
+const { crypt } = require('./user.crypt');
 
 router.route('/').get(
   handling(async (req, res) => {
@@ -19,7 +20,8 @@ router.route('/:id').get(
 
 router.route('/').post(
   handling(async (req, res) => {
-    const user = await usersService.create(req.body);
+    const body = await crypt(req.body);
+    const user = await usersService.create(body);
     res.status(200).send(User.toResponse(user));
   })
 );
