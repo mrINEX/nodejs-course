@@ -1,4 +1,61 @@
-time: Fri Oct 30 2020 20:41:35 GMT+0300 (GMT+03:00)
+time: Mon Nov 02 2020 19:31:00 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/login
+method: POST
+query: {}
+params: {}
+body: {
+  "login": "admin",
+  "password": "admin"
+}
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "accept": "application/json",
+  "content-type": "application/json",
+  "content-length": "36",
+  "connection": "close"
+}
+
+time: Mon Nov 02 2020 19:31:00 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/login
+method: POST
+query: {}
+params: {}
+body: {
+  "login": "admin",
+  "password": "admin"
+}
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "accept": "application/json",
+  "content-type": "application/json",
+  "content-length": "36",
+  "connection": "close"
+}
+
+time: Mon Nov 02 2020 19:31:00 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/login
+method: POST
+query: {}
+params: {}
+body: {
+  "login": "admin",
+  "password": "admin"
+}
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "accept": "application/json",
+  "content-type": "application/json",
+  "content-length": "36",
+  "connection": "close"
+}
+
+time: Mon Nov 02 2020 19:31:00 GMT+0300 (GMT+03:00)
 url: http://localhost:4000/boards
 method: POST
 query: {}
@@ -16,46 +73,67 @@ body: {
     }
   ]
 }
-
-time: Fri Oct 30 2020 20:41:35 GMT+0300 (GMT+03:00)
-url: http://localhost:4000/boards
-method: POST
-query: {}
-params: {}
-body: {
-  "title": "Autotest board",
-  "columns": [
-    {
-      "title": "Backlog",
-      "order": 1
-    },
-    {
-      "title": "Sprint",
-      "order": 2
-    }
-  ]
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwiaWF0IjoxNjA0MzM0NjYwfQ.9X7SxdNtwGsFK3Mx8FAiFxRUAzkJEQnpCzazRlMUfPg",
+  "accept": "application/json",
+  "content-type": "application/json",
+  "content-length": "97",
+  "connection": "close"
 }
 
-time: Fri Oct 30 2020 20:41:35 GMT+0300 (GMT+03:00)
+time: Mon Nov 02 2020 19:31:01 GMT+0300 (GMT+03:00)
 url: http://localhost:4000/users
 method: GET
 query: {}
 params: {}
 body: {}
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwiaWF0IjoxNjA0MzM0NjYwfQ.9X7SxdNtwGsFK3Mx8FAiFxRUAzkJEQnpCzazRlMUfPg",
+  "accept": "application/json",
+  "connection": "close"
+}
 
-time: Fri Oct 30 2020 20:41:35 GMT+0300 (GMT+03:00)
+time: Mon Nov 02 2020 19:31:01 GMT+0300 (GMT+03:00)
 url: http://localhost:4000/boards
-method: GET
+method: POST
 query: {}
 params: {}
-body: {}
+body: {
+  "title": "Autotest board",
+  "columns": [
+    {
+      "title": "Backlog",
+      "order": 1
+    },
+    {
+      "title": "Sprint",
+      "order": 2
+    }
+  ]
+}
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwiaWF0IjoxNjA0MzM0NjYwfQ.9X7SxdNtwGsFK3Mx8FAiFxRUAzkJEQnpCzazRlMUfPg",
+  "accept": "application/json",
+  "content-type": "application/json",
+  "content-length": "97",
+  "connection": "close"
+}
 
-time: Fri Oct 30 2020 20:41:35 GMT+0300 (GMT+03:00)
-url: http://localhost:4000/boards/359a7636-8ffe-4b8a-bf58-dfc251edac74/tasks
+time: Mon Nov 02 2020 19:31:01 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/25b5f3fc-670b-42e6-851c-794d5ed9e4f7/tasks
 method: POST
 query: {}
 params: {
-  "id": "359a7636-8ffe-4b8a-bf58-dfc251edac74"
+  "id": "25b5f3fc-670b-42e6-851c-794d5ed9e4f7"
 }
 body: {
   "title": "Autotest task",
@@ -65,125 +143,18 @@ body: {
   "boardId": null,
   "columnId": null
 }
-
-time: Fri Oct 30 2020 20:41:36 GMT+0300 (GMT+03:00)
-url: http://localhost:4000/users
-method: POST
-query: {}
-params: {}
-body: {
-  "name": "TEST_USER",
-  "login": "test_user",
-  "password": "T35t_P@55w0rd"
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwiaWF0IjoxNjA0MzM0NjYwfQ.9X7SxdNtwGsFK3Mx8FAiFxRUAzkJEQnpCzazRlMUfPg",
+  "accept": "application/json",
+  "content-type": "application/json",
+  "content-length": "108",
+  "connection": "close"
 }
 
-time: Fri Oct 30 2020 20:41:36 GMT+0300 (GMT+03:00)
-url: http://localhost:4000/boards
-method: GET
-query: {}
-params: {}
-body: {}
-
-time: Fri Oct 30 2020 20:41:36 GMT+0300 (GMT+03:00)
-url: http://localhost:4000/boards/359a7636-8ffe-4b8a-bf58-dfc251edac74/tasks
-method: GET
-query: {}
-params: {
-  "id": "359a7636-8ffe-4b8a-bf58-dfc251edac74"
-}
-body: {}
-
-time: Fri Oct 30 2020 20:41:36 GMT+0300 (GMT+03:00)
-url: http://localhost:4000/users/418458f0-860d-47c0-9695-867f81300b5c
-method: GET
-query: {}
-params: {
-  "id": "418458f0-860d-47c0-9695-867f81300b5c"
-}
-body: {}
-
-time: Fri Oct 30 2020 20:41:36 GMT+0300 (GMT+03:00)
-url: http://localhost:4000/boards/7d0e3d37-12ce-4a8d-8c13-645da47b0cf7
-method: GET
-query: {}
-params: {
-  "id": "7d0e3d37-12ce-4a8d-8c13-645da47b0cf7"
-}
-body: {}
-
-time: Fri Oct 30 2020 20:41:36 GMT+0300 (GMT+03:00)
-url: http://localhost:4000/boards/359a7636-8ffe-4b8a-bf58-dfc251edac74/tasks
-method: GET
-query: {}
-params: {
-  "id": "359a7636-8ffe-4b8a-bf58-dfc251edac74"
-}
-body: {}
-
-time: Fri Oct 30 2020 20:41:36 GMT+0300 (GMT+03:00)
-url: http://localhost:4000/users/418458f0-860d-47c0-9695-867f81300b5c
-method: DELETE
-query: {}
-params: {
-  "id": "418458f0-860d-47c0-9695-867f81300b5c"
-}
-body: {}
-
-time: Fri Oct 30 2020 20:41:36 GMT+0300 (GMT+03:00)
-url: http://localhost:4000/boards
-method: POST
-query: {}
-params: {}
-body: {
-  "title": "Autotest board",
-  "columns": [
-    {
-      "title": "Backlog",
-      "order": 1
-    },
-    {
-      "title": "Sprint",
-      "order": 2
-    }
-  ]
-}
-
-time: Fri Oct 30 2020 20:41:36 GMT+0300 (GMT+03:00)
-url: http://localhost:4000/boards/7d0e3d37-12ce-4a8d-8c13-645da47b0cf7/tasks/6837293f-dc23-4c51-9b3c-b8a3461f9a39
-method: GET
-query: {}
-params: {
-  "id": "7d0e3d37-12ce-4a8d-8c13-645da47b0cf7",
-  "idTask": "6837293f-dc23-4c51-9b3c-b8a3461f9a39"
-}
-body: {}
-
-time: Fri Oct 30 2020 20:41:36 GMT+0300 (GMT+03:00)
-url: http://localhost:4000/boards/02f782b9-e91c-459b-bdde-1e163460e024
-method: DELETE
-query: {}
-params: {
-  "id": "02f782b9-e91c-459b-bdde-1e163460e024"
-}
-body: {}
-
-time: Fri Oct 30 2020 20:41:36 GMT+0300 (GMT+03:00)
-url: http://localhost:4000/boards/359a7636-8ffe-4b8a-bf58-dfc251edac74/tasks
-method: POST
-query: {}
-params: {
-  "id": "359a7636-8ffe-4b8a-bf58-dfc251edac74"
-}
-body: {
-  "title": "Autotest task",
-  "order": 0,
-  "description": "Lorem ipsum",
-  "userId": null,
-  "boardId": null,
-  "columnId": null
-}
-
-time: Fri Oct 30 2020 20:41:36 GMT+0300 (GMT+03:00)
+time: Mon Nov 02 2020 19:31:01 GMT+0300 (GMT+03:00)
 url: http://localhost:4000/users
 method: POST
 query: {}
@@ -193,18 +164,191 @@ body: {
   "login": "test_user",
   "password": "T35t_P@55w0rd"
 }
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwiaWF0IjoxNjA0MzM0NjYwfQ.9X7SxdNtwGsFK3Mx8FAiFxRUAzkJEQnpCzazRlMUfPg",
+  "accept": "application/json",
+  "content-type": "application/json",
+  "content-length": "67",
+  "connection": "close"
+}
 
-time: Fri Oct 30 2020 20:41:36 GMT+0300 (GMT+03:00)
-url: http://localhost:4000/boards/359a7636-8ffe-4b8a-bf58-dfc251edac74/tasks/d9af33aa-26f4-4ec2-aa16-1c5b294d548c
+time: Mon Nov 02 2020 19:31:01 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards
+method: GET
+query: {}
+params: {}
+body: {}
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwiaWF0IjoxNjA0MzM0NjYwfQ.9X7SxdNtwGsFK3Mx8FAiFxRUAzkJEQnpCzazRlMUfPg",
+  "accept": "application/json",
+  "connection": "close"
+}
+
+time: Mon Nov 02 2020 19:31:01 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/25b5f3fc-670b-42e6-851c-794d5ed9e4f7/tasks
+method: GET
+query: {}
+params: {
+  "id": "25b5f3fc-670b-42e6-851c-794d5ed9e4f7"
+}
+body: {}
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwiaWF0IjoxNjA0MzM0NjYwfQ.9X7SxdNtwGsFK3Mx8FAiFxRUAzkJEQnpCzazRlMUfPg",
+  "accept": "application/json",
+  "connection": "close"
+}
+
+time: Mon Nov 02 2020 19:31:01 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/users/eeb4bed5-7070-42f5-b518-34145169ebdc
+method: GET
+query: {}
+params: {
+  "id": "eeb4bed5-7070-42f5-b518-34145169ebdc"
+}
+body: {}
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwiaWF0IjoxNjA0MzM0NjYwfQ.9X7SxdNtwGsFK3Mx8FAiFxRUAzkJEQnpCzazRlMUfPg",
+  "accept": "application/json",
+  "connection": "close"
+}
+
+time: Mon Nov 02 2020 19:31:01 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards
+method: GET
+query: {}
+params: {}
+body: {}
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwiaWF0IjoxNjA0MzM0NjYwfQ.9X7SxdNtwGsFK3Mx8FAiFxRUAzkJEQnpCzazRlMUfPg",
+  "connection": "close"
+}
+
+time: Mon Nov 02 2020 19:31:02 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/users/eeb4bed5-7070-42f5-b518-34145169ebdc
 method: DELETE
 query: {}
 params: {
-  "id": "359a7636-8ffe-4b8a-bf58-dfc251edac74",
-  "idTask": "d9af33aa-26f4-4ec2-aa16-1c5b294d548c"
+  "id": "eeb4bed5-7070-42f5-b518-34145169ebdc"
 }
 body: {}
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwiaWF0IjoxNjA0MzM0NjYwfQ.9X7SxdNtwGsFK3Mx8FAiFxRUAzkJEQnpCzazRlMUfPg",
+  "connection": "close"
+}
 
-time: Fri Oct 30 2020 20:41:36 GMT+0300 (GMT+03:00)
+time: Mon Nov 02 2020 19:31:02 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/25b5f3fc-670b-42e6-851c-794d5ed9e4f7/tasks
+method: GET
+query: {}
+params: {
+  "id": "25b5f3fc-670b-42e6-851c-794d5ed9e4f7"
+}
+body: {}
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwiaWF0IjoxNjA0MzM0NjYwfQ.9X7SxdNtwGsFK3Mx8FAiFxRUAzkJEQnpCzazRlMUfPg",
+  "connection": "close"
+}
+
+time: Mon Nov 02 2020 19:31:02 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/25b5f3fc-670b-42e6-851c-794d5ed9e4f7/tasks/cf449927-455a-4cac-a920-e29bada963ad
+method: GET
+query: {}
+params: {
+  "id": "25b5f3fc-670b-42e6-851c-794d5ed9e4f7",
+  "idTask": "cf449927-455a-4cac-a920-e29bada963ad"
+}
+body: {}
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwiaWF0IjoxNjA0MzM0NjYwfQ.9X7SxdNtwGsFK3Mx8FAiFxRUAzkJEQnpCzazRlMUfPg",
+  "accept": "application/json",
+  "connection": "close"
+}
+
+time: Mon Nov 02 2020 19:31:02 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/25b5f3fc-670b-42e6-851c-794d5ed9e4f7/tasks
+method: POST
+query: {}
+params: {
+  "id": "25b5f3fc-670b-42e6-851c-794d5ed9e4f7"
+}
+body: {
+  "title": "Autotest task",
+  "order": 0,
+  "description": "Lorem ipsum",
+  "userId": null,
+  "boardId": null,
+  "columnId": null
+}
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwiaWF0IjoxNjA0MzM0NjYwfQ.9X7SxdNtwGsFK3Mx8FAiFxRUAzkJEQnpCzazRlMUfPg",
+  "accept": "application/json",
+  "content-type": "application/json",
+  "content-length": "108",
+  "connection": "close"
+}
+
+time: Mon Nov 02 2020 19:31:02 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/25b5f3fc-670b-42e6-851c-794d5ed9e4f7
+method: GET
+query: {}
+params: {
+  "id": "25b5f3fc-670b-42e6-851c-794d5ed9e4f7"
+}
+body: {}
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwiaWF0IjoxNjA0MzM0NjYwfQ.9X7SxdNtwGsFK3Mx8FAiFxRUAzkJEQnpCzazRlMUfPg",
+  "accept": "application/json",
+  "connection": "close"
+}
+
+time: Mon Nov 02 2020 19:31:02 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/25b5f3fc-670b-42e6-851c-794d5ed9e4f7/tasks/7b6f935c-f339-40ab-9346-3d6f9414c9c6
+method: DELETE
+query: {}
+params: {
+  "id": "25b5f3fc-670b-42e6-851c-794d5ed9e4f7",
+  "idTask": "7b6f935c-f339-40ab-9346-3d6f9414c9c6"
+}
+body: {}
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwiaWF0IjoxNjA0MzM0NjYwfQ.9X7SxdNtwGsFK3Mx8FAiFxRUAzkJEQnpCzazRlMUfPg",
+  "connection": "close"
+}
+
+time: Mon Nov 02 2020 19:31:02 GMT+0300 (GMT+03:00)
 url: http://localhost:4000/boards
 method: POST
 query: {}
@@ -222,22 +366,60 @@ body: {
     }
   ]
 }
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwiaWF0IjoxNjA0MzM0NjYwfQ.9X7SxdNtwGsFK3Mx8FAiFxRUAzkJEQnpCzazRlMUfPg",
+  "accept": "application/json",
+  "content-type": "application/json",
+  "content-length": "97",
+  "connection": "close"
+}
 
-time: Fri Oct 30 2020 20:41:36 GMT+0300 (GMT+03:00)
-url: http://localhost:4000/users/f9cad724-eb93-4a08-8e28-c02ab1a95e36
+time: Mon Nov 02 2020 19:31:02 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/d71d6468-33e3-4ae0-afc9-94a9afc9d563
 method: DELETE
 query: {}
 params: {
-  "id": "f9cad724-eb93-4a08-8e28-c02ab1a95e36"
+  "id": "d71d6468-33e3-4ae0-afc9-94a9afc9d563"
 }
 body: {}
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwiaWF0IjoxNjA0MzM0NjYwfQ.9X7SxdNtwGsFK3Mx8FAiFxRUAzkJEQnpCzazRlMUfPg",
+  "connection": "close"
+}
 
-time: Fri Oct 30 2020 20:41:36 GMT+0300 (GMT+03:00)
-url: http://localhost:4000/boards/359a7636-8ffe-4b8a-bf58-dfc251edac74/tasks
+time: Mon Nov 02 2020 19:31:02 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/users
+method: POST
+query: {}
+params: {}
+body: {
+  "name": "TEST_USER",
+  "login": "test_user",
+  "password": "T35t_P@55w0rd"
+}
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwiaWF0IjoxNjA0MzM0NjYwfQ.9X7SxdNtwGsFK3Mx8FAiFxRUAzkJEQnpCzazRlMUfPg",
+  "accept": "application/json",
+  "content-type": "application/json",
+  "content-length": "67",
+  "connection": "close"
+}
+
+time: Mon Nov 02 2020 19:31:02 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/25b5f3fc-670b-42e6-851c-794d5ed9e4f7/tasks
 method: POST
 query: {}
 params: {
-  "id": "359a7636-8ffe-4b8a-bf58-dfc251edac74"
+  "id": "25b5f3fc-670b-42e6-851c-794d5ed9e4f7"
 }
 body: {
   "title": "Autotest task",
@@ -247,54 +429,129 @@ body: {
   "boardId": null,
   "columnId": null
 }
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwiaWF0IjoxNjA0MzM0NjYwfQ.9X7SxdNtwGsFK3Mx8FAiFxRUAzkJEQnpCzazRlMUfPg",
+  "accept": "application/json",
+  "content-type": "application/json",
+  "content-length": "108",
+  "connection": "close"
+}
 
-time: Fri Oct 30 2020 20:41:36 GMT+0300 (GMT+03:00)
-url: http://localhost:4000/boards/254a851a-74f5-4037-bc50-9eedcc0b15ab
-method: PUT
+time: Mon Nov 02 2020 19:31:02 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/users/1bbd90a3-c562-4e1c-b3e5-595d8a74dcb7
+method: DELETE
 query: {}
 params: {
-  "id": "254a851a-74f5-4037-bc50-9eedcc0b15ab"
+  "id": "1bbd90a3-c562-4e1c-b3e5-595d8a74dcb7"
 }
+body: {}
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwiaWF0IjoxNjA0MzM0NjYwfQ.9X7SxdNtwGsFK3Mx8FAiFxRUAzkJEQnpCzazRlMUfPg",
+  "connection": "close"
+}
+
+time: Mon Nov 02 2020 19:31:02 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards
+method: POST
+query: {}
+params: {}
 body: {
-  "_id": "5f9c5050d4f8d128bc5de42d",
-  "title": "Autotest updated board",
+  "title": "Autotest board",
   "columns": [
     {
-      "_id": "5f9c5050d4f8d128bc5de42e",
       "title": "Backlog",
-      "order": 1,
-      "id": "a1a7d0e8-6fb6-47c2-ae98-450ac2f72f87"
+      "order": 1
     },
     {
-      "_id": "5f9c5050d4f8d128bc5de42f",
       "title": "Sprint",
-      "order": 2,
-      "id": "85600e42-4381-4f7a-b643-fb724a3f5b4c"
+      "order": 2
     }
-  ],
-  "id": "254a851a-74f5-4037-bc50-9eedcc0b15ab"
+  ]
+}
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwiaWF0IjoxNjA0MzM0NjYwfQ.9X7SxdNtwGsFK3Mx8FAiFxRUAzkJEQnpCzazRlMUfPg",
+  "accept": "application/json",
+  "content-type": "application/json",
+  "content-length": "97",
+  "connection": "close"
 }
 
-time: Fri Oct 30 2020 20:41:36 GMT+0300 (GMT+03:00)
-url: http://localhost:4000/boards/359a7636-8ffe-4b8a-bf58-dfc251edac74/tasks/5a1c118a-e822-4625-be7d-325826338950
+time: Mon Nov 02 2020 19:31:03 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/25b5f3fc-670b-42e6-851c-794d5ed9e4f7/tasks/f3e09c6d-7fb5-4c64-bf5e-bd0c33b4fd38
 method: PUT
 query: {}
 params: {
-  "id": "359a7636-8ffe-4b8a-bf58-dfc251edac74",
-  "idTask": "5a1c118a-e822-4625-be7d-325826338950"
+  "id": "25b5f3fc-670b-42e6-851c-794d5ed9e4f7",
+  "idTask": "f3e09c6d-7fb5-4c64-bf5e-bd0c33b4fd38"
 }
 body: {
-  "_id": "5f9c5050d4f8d128bc5de430",
+  "_id": "5fa034461c0d4817a0c4320c",
   "title": "Autotest updated task",
   "order": 0,
   "description": "Lorem ipsum",
   "userId": null,
-  "boardId": "359a7636-8ffe-4b8a-bf58-dfc251edac74",
+  "boardId": "25b5f3fc-670b-42e6-851c-794d5ed9e4f7",
   "columnId": null,
-  "id": "5a1c118a-e822-4625-be7d-325826338950"
+  "id": "f3e09c6d-7fb5-4c64-bf5e-bd0c33b4fd38"
+}
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwiaWF0IjoxNjA0MzM0NjYwfQ.9X7SxdNtwGsFK3Mx8FAiFxRUAzkJEQnpCzazRlMUfPg",
+  "accept": "application/json",
+  "content-type": "application/json",
+  "content-length": "227",
+  "connection": "close"
 }
 
-time: Fri Oct 30 2020 20:41:36 GMT+0300 (GMT+03:00)
+time: Mon Nov 02 2020 19:31:03 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/1d3c5fa6-e70f-456b-91ae-b12eabb61d51
+method: PUT
+query: {}
+params: {
+  "id": "1d3c5fa6-e70f-456b-91ae-b12eabb61d51"
+}
+body: {
+  "_id": "5fa034461c0d4817a0c4320d",
+  "title": "Autotest updated board",
+  "columns": [
+    {
+      "_id": "5fa034461c0d4817a0c4320e",
+      "title": "Backlog",
+      "order": 1,
+      "id": "a3998722-fd17-4590-95e5-8662c431feb5"
+    },
+    {
+      "_id": "5fa034461c0d4817a0c4320f",
+      "title": "Sprint",
+      "order": 2,
+      "id": "456c3997-92f9-414f-8698-db99e43f8b8c"
+    }
+  ],
+  "id": "1d3c5fa6-e70f-456b-91ae-b12eabb61d51"
+}
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwiaWF0IjoxNjA0MzM0NjYwfQ.9X7SxdNtwGsFK3Mx8FAiFxRUAzkJEQnpCzazRlMUfPg",
+  "accept": "application/json",
+  "content-type": "application/json",
+  "content-length": "336",
+  "connection": "close"
+}
+
+time: Mon Nov 02 2020 19:31:03 GMT+0300 (GMT+03:00)
 url: http://localhost:4000/users
 method: POST
 query: {}
@@ -304,79 +561,161 @@ body: {
   "login": "test_user",
   "password": "T35t_P@55w0rd"
 }
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwiaWF0IjoxNjA0MzM0NjYwfQ.9X7SxdNtwGsFK3Mx8FAiFxRUAzkJEQnpCzazRlMUfPg",
+  "accept": "application/json",
+  "content-type": "application/json",
+  "content-length": "67",
+  "connection": "close"
+}
 
-time: Fri Oct 30 2020 20:41:37 GMT+0300 (GMT+03:00)
-url: http://localhost:4000/boards/254a851a-74f5-4037-bc50-9eedcc0b15ab
+time: Mon Nov 02 2020 19:31:03 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/25b5f3fc-670b-42e6-851c-794d5ed9e4f7/tasks/f3e09c6d-7fb5-4c64-bf5e-bd0c33b4fd38
 method: GET
 query: {}
 params: {
-  "id": "254a851a-74f5-4037-bc50-9eedcc0b15ab"
+  "id": "25b5f3fc-670b-42e6-851c-794d5ed9e4f7",
+  "idTask": "f3e09c6d-7fb5-4c64-bf5e-bd0c33b4fd38"
 }
 body: {}
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwiaWF0IjoxNjA0MzM0NjYwfQ.9X7SxdNtwGsFK3Mx8FAiFxRUAzkJEQnpCzazRlMUfPg",
+  "accept": "application/json",
+  "connection": "close"
+}
 
-time: Fri Oct 30 2020 20:41:37 GMT+0300 (GMT+03:00)
-url: http://localhost:4000/users/d36f65a2-1ea8-480f-87c0-7156af5952d0
+time: Mon Nov 02 2020 19:31:03 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/users/cf0a982e-7460-4a21-b4bd-963b66913c9e
 method: PUT
 query: {}
 params: {
-  "id": "d36f65a2-1ea8-480f-87c0-7156af5952d0"
+  "id": "cf0a982e-7460-4a21-b4bd-963b66913c9e"
 }
 body: {
   "name": "Autotest updated TEST_USER",
   "login": "test_user",
   "password": "T35t_P@55w0rd",
-  "id": "d36f65a2-1ea8-480f-87c0-7156af5952d0"
+  "id": "cf0a982e-7460-4a21-b4bd-963b66913c9e"
+}
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwiaWF0IjoxNjA0MzM0NjYwfQ.9X7SxdNtwGsFK3Mx8FAiFxRUAzkJEQnpCzazRlMUfPg",
+  "accept": "application/json",
+  "content-type": "application/json",
+  "content-length": "128",
+  "connection": "close"
 }
 
-time: Fri Oct 30 2020 20:41:37 GMT+0300 (GMT+03:00)
-url: http://localhost:4000/boards/359a7636-8ffe-4b8a-bf58-dfc251edac74/tasks/5a1c118a-e822-4625-be7d-325826338950
+time: Mon Nov 02 2020 19:31:03 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/1d3c5fa6-e70f-456b-91ae-b12eabb61d51
 method: GET
 query: {}
 params: {
-  "id": "359a7636-8ffe-4b8a-bf58-dfc251edac74",
-  "idTask": "5a1c118a-e822-4625-be7d-325826338950"
+  "id": "1d3c5fa6-e70f-456b-91ae-b12eabb61d51"
 }
 body: {}
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwiaWF0IjoxNjA0MzM0NjYwfQ.9X7SxdNtwGsFK3Mx8FAiFxRUAzkJEQnpCzazRlMUfPg",
+  "accept": "application/json",
+  "connection": "close"
+}
 
-time: Fri Oct 30 2020 20:41:37 GMT+0300 (GMT+03:00)
-url: http://localhost:4000/boards/359a7636-8ffe-4b8a-bf58-dfc251edac74/tasks/4616d364-7eca-4804-b32e-44a9957828d1
+time: Mon Nov 02 2020 19:31:03 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/25b5f3fc-670b-42e6-851c-794d5ed9e4f7/tasks/cf449927-455a-4cac-a920-e29bada963ad
 method: GET
 query: {}
 params: {
-  "id": "359a7636-8ffe-4b8a-bf58-dfc251edac74",
-  "idTask": "4616d364-7eca-4804-b32e-44a9957828d1"
+  "id": "25b5f3fc-670b-42e6-851c-794d5ed9e4f7",
+  "idTask": "cf449927-455a-4cac-a920-e29bada963ad"
 }
 body: {}
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwiaWF0IjoxNjA0MzM0NjYwfQ.9X7SxdNtwGsFK3Mx8FAiFxRUAzkJEQnpCzazRlMUfPg",
+  "connection": "close"
+}
 
-time: Fri Oct 30 2020 20:41:37 GMT+0300 (GMT+03:00)
-url: http://localhost:4000/boards/254a851a-74f5-4037-bc50-9eedcc0b15ab
+time: Mon Nov 02 2020 19:31:03 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/1d3c5fa6-e70f-456b-91ae-b12eabb61d51
 method: DELETE
 query: {}
 params: {
-  "id": "254a851a-74f5-4037-bc50-9eedcc0b15ab"
+  "id": "1d3c5fa6-e70f-456b-91ae-b12eabb61d51"
 }
 body: {}
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwiaWF0IjoxNjA0MzM0NjYwfQ.9X7SxdNtwGsFK3Mx8FAiFxRUAzkJEQnpCzazRlMUfPg",
+  "connection": "close"
+}
 
-time: Fri Oct 30 2020 20:41:37 GMT+0300 (GMT+03:00)
-url: http://localhost:4000/boards/359a7636-8ffe-4b8a-bf58-dfc251edac74/tasks/4616d364-7eca-4804-b32e-44a9957828d1
+time: Mon Nov 02 2020 19:31:03 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/25b5f3fc-670b-42e6-851c-794d5ed9e4f7/tasks/cf449927-455a-4cac-a920-e29bada963ad
 method: DELETE
 query: {}
 params: {
-  "id": "359a7636-8ffe-4b8a-bf58-dfc251edac74",
-  "idTask": "4616d364-7eca-4804-b32e-44a9957828d1"
+  "id": "25b5f3fc-670b-42e6-851c-794d5ed9e4f7",
+  "idTask": "cf449927-455a-4cac-a920-e29bada963ad"
 }
 body: {}
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwiaWF0IjoxNjA0MzM0NjYwfQ.9X7SxdNtwGsFK3Mx8FAiFxRUAzkJEQnpCzazRlMUfPg",
+  "connection": "close"
+}
 
-time: Fri Oct 30 2020 20:41:37 GMT+0300 (GMT+03:00)
-url: http://localhost:4000/users/d36f65a2-1ea8-480f-87c0-7156af5952d0
+time: Mon Nov 02 2020 19:31:03 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/users/cf0a982e-7460-4a21-b4bd-963b66913c9e
 method: GET
 query: {}
 params: {
-  "id": "d36f65a2-1ea8-480f-87c0-7156af5952d0"
+  "id": "cf0a982e-7460-4a21-b4bd-963b66913c9e"
 }
 body: {}
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwiaWF0IjoxNjA0MzM0NjYwfQ.9X7SxdNtwGsFK3Mx8FAiFxRUAzkJEQnpCzazRlMUfPg",
+  "accept": "application/json",
+  "connection": "close"
+}
 
-time: Fri Oct 30 2020 20:41:37 GMT+0300 (GMT+03:00)
+time: Mon Nov 02 2020 19:31:03 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/25b5f3fc-670b-42e6-851c-794d5ed9e4f7/tasks/cf449927-455a-4cac-a920-e29bada963ad
+method: GET
+query: {}
+params: {
+  "id": "25b5f3fc-670b-42e6-851c-794d5ed9e4f7",
+  "idTask": "cf449927-455a-4cac-a920-e29bada963ad"
+}
+body: {}
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwiaWF0IjoxNjA0MzM0NjYwfQ.9X7SxdNtwGsFK3Mx8FAiFxRUAzkJEQnpCzazRlMUfPg",
+  "connection": "close"
+}
+
+time: Mon Nov 02 2020 19:31:03 GMT+0300 (GMT+03:00)
 url: http://localhost:4000/boards
 method: POST
 query: {}
@@ -394,45 +733,66 @@ body: {
     }
   ]
 }
-
-time: Fri Oct 30 2020 20:41:37 GMT+0300 (GMT+03:00)
-url: http://localhost:4000/boards/359a7636-8ffe-4b8a-bf58-dfc251edac74/tasks/4616d364-7eca-4804-b32e-44a9957828d1
-method: GET
-query: {}
-params: {
-  "id": "359a7636-8ffe-4b8a-bf58-dfc251edac74",
-  "idTask": "4616d364-7eca-4804-b32e-44a9957828d1"
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwiaWF0IjoxNjA0MzM0NjYwfQ.9X7SxdNtwGsFK3Mx8FAiFxRUAzkJEQnpCzazRlMUfPg",
+  "accept": "application/json",
+  "content-type": "application/json",
+  "content-length": "97",
+  "connection": "close"
 }
-body: {}
 
-time: Fri Oct 30 2020 20:41:37 GMT+0300 (GMT+03:00)
-url: http://localhost:4000/users/d36f65a2-1ea8-480f-87c0-7156af5952d0
+time: Mon Nov 02 2020 19:31:03 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/users/cf0a982e-7460-4a21-b4bd-963b66913c9e
 method: DELETE
 query: {}
 params: {
-  "id": "d36f65a2-1ea8-480f-87c0-7156af5952d0"
+  "id": "cf0a982e-7460-4a21-b4bd-963b66913c9e"
 }
 body: {}
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwiaWF0IjoxNjA0MzM0NjYwfQ.9X7SxdNtwGsFK3Mx8FAiFxRUAzkJEQnpCzazRlMUfPg",
+  "connection": "close"
+}
 
-time: Fri Oct 30 2020 20:41:37 GMT+0300 (GMT+03:00)
-url: http://localhost:4000/boards/b594ceb0-2992-492f-b5d3-ccf00fe05a01
+time: Mon Nov 02 2020 19:31:03 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/25b5f3fc-670b-42e6-851c-794d5ed9e4f7
 method: DELETE
 query: {}
 params: {
-  "id": "b594ceb0-2992-492f-b5d3-ccf00fe05a01"
+  "id": "25b5f3fc-670b-42e6-851c-794d5ed9e4f7"
 }
 body: {}
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwiaWF0IjoxNjA0MzM0NjYwfQ.9X7SxdNtwGsFK3Mx8FAiFxRUAzkJEQnpCzazRlMUfPg",
+  "connection": "close"
+}
 
-time: Fri Oct 30 2020 20:41:37 GMT+0300 (GMT+03:00)
-url: http://localhost:4000/boards/359a7636-8ffe-4b8a-bf58-dfc251edac74
+time: Mon Nov 02 2020 19:31:03 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/fef57a74-70a9-4f1a-8779-43026f432dd8
 method: DELETE
 query: {}
 params: {
-  "id": "359a7636-8ffe-4b8a-bf58-dfc251edac74"
+  "id": "fef57a74-70a9-4f1a-8779-43026f432dd8"
 }
 body: {}
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwiaWF0IjoxNjA0MzM0NjYwfQ.9X7SxdNtwGsFK3Mx8FAiFxRUAzkJEQnpCzazRlMUfPg",
+  "connection": "close"
+}
 
-time: Fri Oct 30 2020 20:41:37 GMT+0300 (GMT+03:00)
+time: Mon Nov 02 2020 19:31:04 GMT+0300 (GMT+03:00)
 url: http://localhost:4000/users
 method: POST
 query: {}
@@ -442,17 +802,49 @@ body: {
   "login": "test_user",
   "password": "T35t_P@55w0rd"
 }
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwiaWF0IjoxNjA0MzM0NjYwfQ.9X7SxdNtwGsFK3Mx8FAiFxRUAzkJEQnpCzazRlMUfPg",
+  "content-type": "application/json",
+  "content-length": "67",
+  "connection": "close"
+}
 
-time: Fri Oct 30 2020 20:41:37 GMT+0300 (GMT+03:00)
-url: http://localhost:4000/boards/b594ceb0-2992-492f-b5d3-ccf00fe05a01
+time: Mon Nov 02 2020 19:31:04 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/fef57a74-70a9-4f1a-8779-43026f432dd8
 method: GET
 query: {}
 params: {
-  "id": "b594ceb0-2992-492f-b5d3-ccf00fe05a01"
+  "id": "fef57a74-70a9-4f1a-8779-43026f432dd8"
 }
 body: {}
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwiaWF0IjoxNjA0MzM0NjYwfQ.9X7SxdNtwGsFK3Mx8FAiFxRUAzkJEQnpCzazRlMUfPg",
+  "connection": "close"
+}
 
-time: Fri Oct 30 2020 20:41:37 GMT+0300 (GMT+03:00)
+time: Mon Nov 02 2020 19:31:04 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/users/1cfbc5b5-2498-4409-a990-fe8fd608eaf1
+method: DELETE
+query: {}
+params: {
+  "id": "1cfbc5b5-2498-4409-a990-fe8fd608eaf1"
+}
+body: {}
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwiaWF0IjoxNjA0MzM0NjYwfQ.9X7SxdNtwGsFK3Mx8FAiFxRUAzkJEQnpCzazRlMUfPg",
+  "connection": "close"
+}
+
+time: Mon Nov 02 2020 19:31:04 GMT+0300 (GMT+03:00)
 url: http://localhost:4000/boards
 method: POST
 query: {}
@@ -470,158 +862,169 @@ body: {
     }
   ]
 }
-
-time: Fri Oct 30 2020 20:41:37 GMT+0300 (GMT+03:00)
-url: http://localhost:4000/users/317df076-406c-43d7-8870-c32eea94e7cd
-method: DELETE
-query: {}
-params: {
-  "id": "317df076-406c-43d7-8870-c32eea94e7cd"
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwiaWF0IjoxNjA0MzM0NjYwfQ.9X7SxdNtwGsFK3Mx8FAiFxRUAzkJEQnpCzazRlMUfPg",
+  "accept": "application/json",
+  "content-type": "application/json",
+  "content-length": "97",
+  "connection": "close"
 }
-body: {}
 
-time: Fri Oct 30 2020 20:41:37 GMT+0300 (GMT+03:00)
-url: http://localhost:4000/boards/02f1e04f-61ef-415a-a004-ef9acbc59304/tasks
+time: Mon Nov 02 2020 19:31:04 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/users
+method: POST
+query: {}
+params: {}
+body: {
+  "name": "TEST_USER",
+  "login": "test_user",
+  "password": "T35t_P@55w0rd"
+}
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwiaWF0IjoxNjA0MzM0NjYwfQ.9X7SxdNtwGsFK3Mx8FAiFxRUAzkJEQnpCzazRlMUfPg",
+  "content-type": "application/json",
+  "accept": "application/json",
+  "content-length": "67",
+  "connection": "close"
+}
+
+time: Mon Nov 02 2020 19:31:04 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/0a6e7ab9-8dc4-401a-a724-9e411b3dbd41/tasks
 method: POST
 query: {}
 params: {
-  "id": "02f1e04f-61ef-415a-a004-ef9acbc59304"
+  "id": "0a6e7ab9-8dc4-401a-a724-9e411b3dbd41"
 }
 body: {
   "title": "Task #1",
   "order": 1,
   "description": "Lorem ipsum",
-  "boardId": "02f1e04f-61ef-415a-a004-ef9acbc59304",
+  "boardId": "0a6e7ab9-8dc4-401a-a724-9e411b3dbd41",
   "userId": null,
   "columnId": null
 }
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwiaWF0IjoxNjA0MzM0NjYwfQ.9X7SxdNtwGsFK3Mx8FAiFxRUAzkJEQnpCzazRlMUfPg",
+  "content-type": "application/json",
+  "accept": "application/json",
+  "content-length": "136",
+  "connection": "close"
+}
 
-time: Fri Oct 30 2020 20:41:37 GMT+0300 (GMT+03:00)
-url: http://localhost:4000/boards/02f1e04f-61ef-415a-a004-ef9acbc59304/tasks
+time: Mon Nov 02 2020 19:31:04 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/0a6e7ab9-8dc4-401a-a724-9e411b3dbd41/tasks
 method: POST
 query: {}
 params: {
-  "id": "02f1e04f-61ef-415a-a004-ef9acbc59304"
+  "id": "0a6e7ab9-8dc4-401a-a724-9e411b3dbd41"
 }
 body: {
   "title": "Task #2",
   "order": 2,
   "description": "Lorem ipsum",
-  "boardId": "02f1e04f-61ef-415a-a004-ef9acbc59304",
+  "boardId": "0a6e7ab9-8dc4-401a-a724-9e411b3dbd41",
   "userId": null,
   "columnId": null
 }
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwiaWF0IjoxNjA0MzM0NjYwfQ.9X7SxdNtwGsFK3Mx8FAiFxRUAzkJEQnpCzazRlMUfPg",
+  "content-type": "application/json",
+  "accept": "application/json",
+  "content-length": "136",
+  "connection": "close"
+}
 
-time: Fri Oct 30 2020 20:41:37 GMT+0300 (GMT+03:00)
-url: http://localhost:4000/boards/02f1e04f-61ef-415a-a004-ef9acbc59304/tasks
+time: Mon Nov 02 2020 19:31:04 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/0a6e7ab9-8dc4-401a-a724-9e411b3dbd41/tasks
 method: POST
 query: {}
 params: {
-  "id": "02f1e04f-61ef-415a-a004-ef9acbc59304"
+  "id": "0a6e7ab9-8dc4-401a-a724-9e411b3dbd41"
 }
 body: {
   "title": "Task #3",
   "order": 3,
   "description": "Lorem ipsum",
-  "boardId": "02f1e04f-61ef-415a-a004-ef9acbc59304",
+  "boardId": "0a6e7ab9-8dc4-401a-a724-9e411b3dbd41",
   "userId": null,
   "columnId": null
 }
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwiaWF0IjoxNjA0MzM0NjYwfQ.9X7SxdNtwGsFK3Mx8FAiFxRUAzkJEQnpCzazRlMUfPg",
+  "content-type": "application/json",
+  "accept": "application/json",
+  "content-length": "136",
+  "connection": "close"
+}
 
-time: Fri Oct 30 2020 20:41:37 GMT+0300 (GMT+03:00)
-url: http://localhost:4000/boards/02f1e04f-61ef-415a-a004-ef9acbc59304/tasks
+time: Mon Nov 02 2020 19:31:04 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/0a6e7ab9-8dc4-401a-a724-9e411b3dbd41/tasks
 method: POST
 query: {}
 params: {
-  "id": "02f1e04f-61ef-415a-a004-ef9acbc59304"
+  "id": "0a6e7ab9-8dc4-401a-a724-9e411b3dbd41"
 }
 body: {
   "title": "Task #4",
   "order": 4,
   "description": "Lorem ipsum",
-  "boardId": "02f1e04f-61ef-415a-a004-ef9acbc59304",
+  "boardId": "0a6e7ab9-8dc4-401a-a724-9e411b3dbd41",
   "userId": null,
   "columnId": null
 }
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwiaWF0IjoxNjA0MzM0NjYwfQ.9X7SxdNtwGsFK3Mx8FAiFxRUAzkJEQnpCzazRlMUfPg",
+  "content-type": "application/json",
+  "accept": "application/json",
+  "content-length": "136",
+  "connection": "close"
+}
 
-time: Fri Oct 30 2020 20:41:37 GMT+0300 (GMT+03:00)
-url: http://localhost:4000/boards/02f1e04f-61ef-415a-a004-ef9acbc59304/tasks
+time: Mon Nov 02 2020 19:31:04 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/0a6e7ab9-8dc4-401a-a724-9e411b3dbd41/tasks
 method: POST
 query: {}
 params: {
-  "id": "02f1e04f-61ef-415a-a004-ef9acbc59304"
+  "id": "0a6e7ab9-8dc4-401a-a724-9e411b3dbd41"
 }
 body: {
   "title": "Task #5",
   "order": 5,
   "description": "Lorem ipsum",
-  "boardId": "02f1e04f-61ef-415a-a004-ef9acbc59304",
+  "boardId": "0a6e7ab9-8dc4-401a-a724-9e411b3dbd41",
   "userId": null,
   "columnId": null
 }
-
-time: Fri Oct 30 2020 20:41:38 GMT+0300 (GMT+03:00)
-url: http://localhost:4000/users
-method: POST
-query: {}
-params: {}
-body: {
-  "name": "TEST_USER",
-  "login": "test_user",
-  "password": "T35t_P@55w0rd"
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwiaWF0IjoxNjA0MzM0NjYwfQ.9X7SxdNtwGsFK3Mx8FAiFxRUAzkJEQnpCzazRlMUfPg",
+  "content-type": "application/json",
+  "accept": "application/json",
+  "content-length": "136",
+  "connection": "close"
 }
 
-time: Fri Oct 30 2020 20:41:38 GMT+0300 (GMT+03:00)
-url: http://localhost:4000/boards/02f1e04f-61ef-415a-a004-ef9acbc59304/tasks/26666642-9d04-42c3-be80-e397920044ce
-method: GET
-query: {}
-params: {
-  "id": "02f1e04f-61ef-415a-a004-ef9acbc59304",
-  "idTask": "26666642-9d04-42c3-be80-e397920044ce"
-}
-body: {}
-
-time: Fri Oct 30 2020 20:41:38 GMT+0300 (GMT+03:00)
-url: http://localhost:4000/boards/02f1e04f-61ef-415a-a004-ef9acbc59304/tasks/148365a5-2dc6-4ee7-9661-6bc7227aa404
-method: GET
-query: {}
-params: {
-  "id": "02f1e04f-61ef-415a-a004-ef9acbc59304",
-  "idTask": "148365a5-2dc6-4ee7-9661-6bc7227aa404"
-}
-body: {}
-
-time: Fri Oct 30 2020 20:41:38 GMT+0300 (GMT+03:00)
-url: http://localhost:4000/boards/02f1e04f-61ef-415a-a004-ef9acbc59304/tasks/915ff1cf-74b8-4187-9216-2900b5a49f83
-method: GET
-query: {}
-params: {
-  "id": "02f1e04f-61ef-415a-a004-ef9acbc59304",
-  "idTask": "915ff1cf-74b8-4187-9216-2900b5a49f83"
-}
-body: {}
-
-time: Fri Oct 30 2020 20:41:38 GMT+0300 (GMT+03:00)
-url: http://localhost:4000/boards/02f1e04f-61ef-415a-a004-ef9acbc59304/tasks/8aebe10c-49ae-46d0-82c7-ded83d930a7a
-method: GET
-query: {}
-params: {
-  "id": "02f1e04f-61ef-415a-a004-ef9acbc59304",
-  "idTask": "8aebe10c-49ae-46d0-82c7-ded83d930a7a"
-}
-body: {}
-
-time: Fri Oct 30 2020 20:41:38 GMT+0300 (GMT+03:00)
-url: http://localhost:4000/boards/02f1e04f-61ef-415a-a004-ef9acbc59304/tasks/acd6b8d1-befc-4c7d-b94f-61ed496375e4
-method: GET
-query: {}
-params: {
-  "id": "02f1e04f-61ef-415a-a004-ef9acbc59304",
-  "idTask": "acd6b8d1-befc-4c7d-b94f-61ed496375e4"
-}
-body: {}
-
-time: Fri Oct 30 2020 20:41:38 GMT+0300 (GMT+03:00)
+time: Mon Nov 02 2020 19:31:04 GMT+0300 (GMT+03:00)
 url: http://localhost:4000/boards
 method: POST
 query: {}
@@ -639,160 +1042,373 @@ body: {
     }
   ]
 }
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwiaWF0IjoxNjA0MzM0NjYwfQ.9X7SxdNtwGsFK3Mx8FAiFxRUAzkJEQnpCzazRlMUfPg",
+  "content-type": "application/json",
+  "accept": "application/json",
+  "content-length": "97",
+  "connection": "close"
+}
 
-time: Fri Oct 30 2020 20:41:38 GMT+0300 (GMT+03:00)
-url: http://localhost:4000/boards/02f1e04f-61ef-415a-a004-ef9acbc59304
-method: DELETE
+time: Mon Nov 02 2020 19:31:04 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/0a6e7ab9-8dc4-401a-a724-9e411b3dbd41/tasks/dda507d2-31e5-4051-a2ba-2e2df6cffa86
+method: GET
 query: {}
 params: {
-  "id": "02f1e04f-61ef-415a-a004-ef9acbc59304"
+  "id": "0a6e7ab9-8dc4-401a-a724-9e411b3dbd41",
+  "idTask": "dda507d2-31e5-4051-a2ba-2e2df6cffa86"
 }
 body: {}
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwiaWF0IjoxNjA0MzM0NjYwfQ.9X7SxdNtwGsFK3Mx8FAiFxRUAzkJEQnpCzazRlMUfPg",
+  "accept": "application/json",
+  "connection": "close"
+}
 
-time: Fri Oct 30 2020 20:41:38 GMT+0300 (GMT+03:00)
-url: http://localhost:4000/boards/6cdae414-5412-4f47-958a-79634bf42920/tasks
+time: Mon Nov 02 2020 19:31:04 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/0a6e7ab9-8dc4-401a-a724-9e411b3dbd41/tasks/4db59275-31cc-4922-94cb-54854d784857
+method: GET
+query: {}
+params: {
+  "id": "0a6e7ab9-8dc4-401a-a724-9e411b3dbd41",
+  "idTask": "4db59275-31cc-4922-94cb-54854d784857"
+}
+body: {}
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwiaWF0IjoxNjA0MzM0NjYwfQ.9X7SxdNtwGsFK3Mx8FAiFxRUAzkJEQnpCzazRlMUfPg",
+  "accept": "application/json",
+  "connection": "close"
+}
+
+time: Mon Nov 02 2020 19:31:04 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/0a6e7ab9-8dc4-401a-a724-9e411b3dbd41/tasks/94ecf9cc-ce64-4363-bc0a-cde543e5a3f3
+method: GET
+query: {}
+params: {
+  "id": "0a6e7ab9-8dc4-401a-a724-9e411b3dbd41",
+  "idTask": "94ecf9cc-ce64-4363-bc0a-cde543e5a3f3"
+}
+body: {}
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwiaWF0IjoxNjA0MzM0NjYwfQ.9X7SxdNtwGsFK3Mx8FAiFxRUAzkJEQnpCzazRlMUfPg",
+  "accept": "application/json",
+  "connection": "close"
+}
+
+time: Mon Nov 02 2020 19:31:04 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/0a6e7ab9-8dc4-401a-a724-9e411b3dbd41/tasks/a5ff732d-13b9-4ba9-ad2f-96728a4dd66e
+method: GET
+query: {}
+params: {
+  "id": "0a6e7ab9-8dc4-401a-a724-9e411b3dbd41",
+  "idTask": "a5ff732d-13b9-4ba9-ad2f-96728a4dd66e"
+}
+body: {}
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwiaWF0IjoxNjA0MzM0NjYwfQ.9X7SxdNtwGsFK3Mx8FAiFxRUAzkJEQnpCzazRlMUfPg",
+  "accept": "application/json",
+  "connection": "close"
+}
+
+time: Mon Nov 02 2020 19:31:04 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/0a6e7ab9-8dc4-401a-a724-9e411b3dbd41/tasks/932e324c-2e5f-4a0f-8056-004685586a87
+method: GET
+query: {}
+params: {
+  "id": "0a6e7ab9-8dc4-401a-a724-9e411b3dbd41",
+  "idTask": "932e324c-2e5f-4a0f-8056-004685586a87"
+}
+body: {}
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwiaWF0IjoxNjA0MzM0NjYwfQ.9X7SxdNtwGsFK3Mx8FAiFxRUAzkJEQnpCzazRlMUfPg",
+  "accept": "application/json",
+  "connection": "close"
+}
+
+time: Mon Nov 02 2020 19:31:04 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/c403bef7-8c15-4221-bb8e-016da535fbef/tasks
 method: POST
 query: {}
 params: {
-  "id": "6cdae414-5412-4f47-958a-79634bf42920"
+  "id": "c403bef7-8c15-4221-bb8e-016da535fbef"
 }
 body: {
   "title": "Task #1",
   "order": 1,
   "description": "Lorem ipsum",
-  "userId": "6d7e483f-d73c-45f9-b5a1-c0893d722734",
-  "boardId": "6cdae414-5412-4f47-958a-79634bf42920"
+  "userId": "b4f31a86-3aee-4ab9-8b43-3728e98a455c",
+  "boardId": "c403bef7-8c15-4221-bb8e-016da535fbef"
+}
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwiaWF0IjoxNjA0MzM0NjYwfQ.9X7SxdNtwGsFK3Mx8FAiFxRUAzkJEQnpCzazRlMUfPg",
+  "content-type": "application/json",
+  "accept": "application/json",
+  "content-length": "154",
+  "connection": "close"
 }
 
-time: Fri Oct 30 2020 20:41:38 GMT+0300 (GMT+03:00)
-url: http://localhost:4000/boards/6cdae414-5412-4f47-958a-79634bf42920/tasks
+time: Mon Nov 02 2020 19:31:04 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/c403bef7-8c15-4221-bb8e-016da535fbef/tasks
 method: POST
 query: {}
 params: {
-  "id": "6cdae414-5412-4f47-958a-79634bf42920"
+  "id": "c403bef7-8c15-4221-bb8e-016da535fbef"
 }
 body: {
   "title": "Task #2",
   "order": 2,
   "description": "Lorem ipsum",
-  "userId": "6d7e483f-d73c-45f9-b5a1-c0893d722734",
-  "boardId": "6cdae414-5412-4f47-958a-79634bf42920"
+  "userId": "b4f31a86-3aee-4ab9-8b43-3728e98a455c",
+  "boardId": "c403bef7-8c15-4221-bb8e-016da535fbef"
+}
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwiaWF0IjoxNjA0MzM0NjYwfQ.9X7SxdNtwGsFK3Mx8FAiFxRUAzkJEQnpCzazRlMUfPg",
+  "content-type": "application/json",
+  "accept": "application/json",
+  "content-length": "154",
+  "connection": "close"
 }
 
-time: Fri Oct 30 2020 20:41:38 GMT+0300 (GMT+03:00)
-url: http://localhost:4000/users/6d7e483f-d73c-45f9-b5a1-c0893d722734
+time: Mon Nov 02 2020 19:31:04 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/0a6e7ab9-8dc4-401a-a724-9e411b3dbd41
 method: DELETE
 query: {}
 params: {
-  "id": "6d7e483f-d73c-45f9-b5a1-c0893d722734"
+  "id": "0a6e7ab9-8dc4-401a-a724-9e411b3dbd41"
 }
 body: {}
-
-time: Fri Oct 30 2020 20:41:38 GMT+0300 (GMT+03:00)
-url: http://localhost:4000/boards/02f1e04f-61ef-415a-a004-ef9acbc59304/tasks/915ff1cf-74b8-4187-9216-2900b5a49f83
-method: GET
-query: {}
-params: {
-  "id": "02f1e04f-61ef-415a-a004-ef9acbc59304",
-  "idTask": "915ff1cf-74b8-4187-9216-2900b5a49f83"
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwiaWF0IjoxNjA0MzM0NjYwfQ.9X7SxdNtwGsFK3Mx8FAiFxRUAzkJEQnpCzazRlMUfPg",
+  "connection": "close"
 }
-body: {}
 
-time: Fri Oct 30 2020 20:41:38 GMT+0300 (GMT+03:00)
-url: http://localhost:4000/boards/02f1e04f-61ef-415a-a004-ef9acbc59304/tasks/8aebe10c-49ae-46d0-82c7-ded83d930a7a
-method: GET
-query: {}
-params: {
-  "id": "02f1e04f-61ef-415a-a004-ef9acbc59304",
-  "idTask": "8aebe10c-49ae-46d0-82c7-ded83d930a7a"
-}
-body: {}
-
-time: Fri Oct 30 2020 20:41:38 GMT+0300 (GMT+03:00)
-url: http://localhost:4000/boards/02f1e04f-61ef-415a-a004-ef9acbc59304/tasks/26666642-9d04-42c3-be80-e397920044ce
-method: GET
-query: {}
-params: {
-  "id": "02f1e04f-61ef-415a-a004-ef9acbc59304",
-  "idTask": "26666642-9d04-42c3-be80-e397920044ce"
-}
-body: {}
-
-time: Fri Oct 30 2020 20:41:38 GMT+0300 (GMT+03:00)
-url: http://localhost:4000/boards/02f1e04f-61ef-415a-a004-ef9acbc59304/tasks/148365a5-2dc6-4ee7-9661-6bc7227aa404
-method: GET
-query: {}
-params: {
-  "id": "02f1e04f-61ef-415a-a004-ef9acbc59304",
-  "idTask": "148365a5-2dc6-4ee7-9661-6bc7227aa404"
-}
-body: {}
-
-time: Fri Oct 30 2020 20:41:38 GMT+0300 (GMT+03:00)
-url: http://localhost:4000/boards/02f1e04f-61ef-415a-a004-ef9acbc59304/tasks/acd6b8d1-befc-4c7d-b94f-61ed496375e4
-method: GET
-query: {}
-params: {
-  "id": "02f1e04f-61ef-415a-a004-ef9acbc59304",
-  "idTask": "acd6b8d1-befc-4c7d-b94f-61ed496375e4"
-}
-body: {}
-
-time: Fri Oct 30 2020 20:41:39 GMT+0300 (GMT+03:00)
-url: http://localhost:4000/boards/e6b22b08-cfea-40b8-a326-77bc6dfd2ac2
+time: Mon Nov 02 2020 19:31:05 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/users/b4f31a86-3aee-4ab9-8b43-3728e98a455c
 method: DELETE
 query: {}
 params: {
-  "id": "e6b22b08-cfea-40b8-a326-77bc6dfd2ac2"
+  "id": "b4f31a86-3aee-4ab9-8b43-3728e98a455c"
 }
 body: {}
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwiaWF0IjoxNjA0MzM0NjYwfQ.9X7SxdNtwGsFK3Mx8FAiFxRUAzkJEQnpCzazRlMUfPg",
+  "connection": "close"
+}
 
-time: Fri Oct 30 2020 20:41:39 GMT+0300 (GMT+03:00)
-url: http://localhost:4000/boards/6cdae414-5412-4f47-958a-79634bf42920/tasks/33572fd1-6fbc-4b68-b26f-17d15a024468
+time: Mon Nov 02 2020 19:31:05 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/0a6e7ab9-8dc4-401a-a724-9e411b3dbd41/tasks/dda507d2-31e5-4051-a2ba-2e2df6cffa86
 method: GET
 query: {}
 params: {
-  "id": "6cdae414-5412-4f47-958a-79634bf42920",
-  "idTask": "33572fd1-6fbc-4b68-b26f-17d15a024468"
+  "id": "0a6e7ab9-8dc4-401a-a724-9e411b3dbd41",
+  "idTask": "dda507d2-31e5-4051-a2ba-2e2df6cffa86"
 }
 body: {}
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwiaWF0IjoxNjA0MzM0NjYwfQ.9X7SxdNtwGsFK3Mx8FAiFxRUAzkJEQnpCzazRlMUfPg",
+  "connection": "close"
+}
 
-time: Fri Oct 30 2020 20:41:39 GMT+0300 (GMT+03:00)
-url: http://localhost:4000/boards/6cdae414-5412-4f47-958a-79634bf42920/tasks/594da092-8b4d-4697-b613-2964311a4dcd
+time: Mon Nov 02 2020 19:31:05 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/0a6e7ab9-8dc4-401a-a724-9e411b3dbd41/tasks/94ecf9cc-ce64-4363-bc0a-cde543e5a3f3
 method: GET
 query: {}
 params: {
-  "id": "6cdae414-5412-4f47-958a-79634bf42920",
-  "idTask": "594da092-8b4d-4697-b613-2964311a4dcd"
+  "id": "0a6e7ab9-8dc4-401a-a724-9e411b3dbd41",
+  "idTask": "94ecf9cc-ce64-4363-bc0a-cde543e5a3f3"
 }
 body: {}
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwiaWF0IjoxNjA0MzM0NjYwfQ.9X7SxdNtwGsFK3Mx8FAiFxRUAzkJEQnpCzazRlMUfPg",
+  "connection": "close"
+}
 
-time: Fri Oct 30 2020 20:41:39 GMT+0300 (GMT+03:00)
-url: http://localhost:4000/boards/6cdae414-5412-4f47-958a-79634bf42920/tasks/33572fd1-6fbc-4b68-b26f-17d15a024468
+time: Mon Nov 02 2020 19:31:05 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/0a6e7ab9-8dc4-401a-a724-9e411b3dbd41/tasks/a5ff732d-13b9-4ba9-ad2f-96728a4dd66e
+method: GET
+query: {}
+params: {
+  "id": "0a6e7ab9-8dc4-401a-a724-9e411b3dbd41",
+  "idTask": "a5ff732d-13b9-4ba9-ad2f-96728a4dd66e"
+}
+body: {}
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwiaWF0IjoxNjA0MzM0NjYwfQ.9X7SxdNtwGsFK3Mx8FAiFxRUAzkJEQnpCzazRlMUfPg",
+  "connection": "close"
+}
+
+time: Mon Nov 02 2020 19:31:05 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/0a6e7ab9-8dc4-401a-a724-9e411b3dbd41/tasks/932e324c-2e5f-4a0f-8056-004685586a87
+method: GET
+query: {}
+params: {
+  "id": "0a6e7ab9-8dc4-401a-a724-9e411b3dbd41",
+  "idTask": "932e324c-2e5f-4a0f-8056-004685586a87"
+}
+body: {}
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwiaWF0IjoxNjA0MzM0NjYwfQ.9X7SxdNtwGsFK3Mx8FAiFxRUAzkJEQnpCzazRlMUfPg",
+  "connection": "close"
+}
+
+time: Mon Nov 02 2020 19:31:05 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/0a6e7ab9-8dc4-401a-a724-9e411b3dbd41/tasks/4db59275-31cc-4922-94cb-54854d784857
+method: GET
+query: {}
+params: {
+  "id": "0a6e7ab9-8dc4-401a-a724-9e411b3dbd41",
+  "idTask": "4db59275-31cc-4922-94cb-54854d784857"
+}
+body: {}
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwiaWF0IjoxNjA0MzM0NjYwfQ.9X7SxdNtwGsFK3Mx8FAiFxRUAzkJEQnpCzazRlMUfPg",
+  "connection": "close"
+}
+
+time: Mon Nov 02 2020 19:31:05 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/c403bef7-8c15-4221-bb8e-016da535fbef/tasks/f4315188-2aff-487f-a063-5c8b93c2bee9
+method: GET
+query: {}
+params: {
+  "id": "c403bef7-8c15-4221-bb8e-016da535fbef",
+  "idTask": "f4315188-2aff-487f-a063-5c8b93c2bee9"
+}
+body: {}
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwiaWF0IjoxNjA0MzM0NjYwfQ.9X7SxdNtwGsFK3Mx8FAiFxRUAzkJEQnpCzazRlMUfPg",
+  "accept": "application/json",
+  "connection": "close"
+}
+
+time: Mon Nov 02 2020 19:31:05 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/c403bef7-8c15-4221-bb8e-016da535fbef/tasks/2696e184-b03d-48c2-9517-cac5eeb035e8
+method: GET
+query: {}
+params: {
+  "id": "c403bef7-8c15-4221-bb8e-016da535fbef",
+  "idTask": "2696e184-b03d-48c2-9517-cac5eeb035e8"
+}
+body: {}
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwiaWF0IjoxNjA0MzM0NjYwfQ.9X7SxdNtwGsFK3Mx8FAiFxRUAzkJEQnpCzazRlMUfPg",
+  "accept": "application/json",
+  "connection": "close"
+}
+
+time: Mon Nov 02 2020 19:31:05 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/3696451f-18b0-4d6c-83f0-83164b869a54
 method: DELETE
 query: {}
 params: {
-  "id": "6cdae414-5412-4f47-958a-79634bf42920",
-  "idTask": "33572fd1-6fbc-4b68-b26f-17d15a024468"
+  "id": "3696451f-18b0-4d6c-83f0-83164b869a54"
 }
 body: {}
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwiaWF0IjoxNjA0MzM0NjYwfQ.9X7SxdNtwGsFK3Mx8FAiFxRUAzkJEQnpCzazRlMUfPg",
+  "connection": "close"
+}
 
-time: Fri Oct 30 2020 20:41:39 GMT+0300 (GMT+03:00)
-url: http://localhost:4000/boards/6cdae414-5412-4f47-958a-79634bf42920/tasks/594da092-8b4d-4697-b613-2964311a4dcd
+time: Mon Nov 02 2020 19:31:05 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/c403bef7-8c15-4221-bb8e-016da535fbef/tasks/f4315188-2aff-487f-a063-5c8b93c2bee9
 method: DELETE
 query: {}
 params: {
-  "id": "6cdae414-5412-4f47-958a-79634bf42920",
-  "idTask": "594da092-8b4d-4697-b613-2964311a4dcd"
+  "id": "c403bef7-8c15-4221-bb8e-016da535fbef",
+  "idTask": "f4315188-2aff-487f-a063-5c8b93c2bee9"
 }
 body: {}
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwiaWF0IjoxNjA0MzM0NjYwfQ.9X7SxdNtwGsFK3Mx8FAiFxRUAzkJEQnpCzazRlMUfPg",
+  "connection": "close"
+}
 
-time: Fri Oct 30 2020 20:41:39 GMT+0300 (GMT+03:00)
-url: http://localhost:4000/boards/6cdae414-5412-4f47-958a-79634bf42920
+time: Mon Nov 02 2020 19:31:05 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/c403bef7-8c15-4221-bb8e-016da535fbef/tasks/2696e184-b03d-48c2-9517-cac5eeb035e8
 method: DELETE
 query: {}
 params: {
-  "id": "6cdae414-5412-4f47-958a-79634bf42920"
+  "id": "c403bef7-8c15-4221-bb8e-016da535fbef",
+  "idTask": "2696e184-b03d-48c2-9517-cac5eeb035e8"
 }
 body: {}
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwiaWF0IjoxNjA0MzM0NjYwfQ.9X7SxdNtwGsFK3Mx8FAiFxRUAzkJEQnpCzazRlMUfPg",
+  "connection": "close"
+}
+
+time: Mon Nov 02 2020 19:31:05 GMT+0300 (GMT+03:00)
+url: http://localhost:4000/boards/c403bef7-8c15-4221-bb8e-016da535fbef
+method: DELETE
+query: {}
+params: {
+  "id": "c403bef7-8c15-4221-bb8e-016da535fbef"
+}
+body: {}
+headers: {
+  "host": "localhost:4000",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwiaWF0IjoxNjA0MzM0NjYwfQ.9X7SxdNtwGsFK3Mx8FAiFxRUAzkJEQnpCzazRlMUfPg",
+  "connection": "close"
+}
 

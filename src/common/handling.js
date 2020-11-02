@@ -18,8 +18,9 @@ function handling(fn) {
       const query = `query: ${JSON.stringify(req.query, null, 2)}`;
       const body = `body: ${JSON.stringify(req.body, null, 2)}`;
       const params = `params: ${JSON.stringify(req.params, null, 2)}`;
+      const headers = `headers: ${JSON.stringify(req.headers, null, 2)}`;
 
-      const logging = `${timeDate}\n${url}\n${method}\n${query}\n${params}\n${body}\n\n`;
+      const logging = `${timeDate}\n${url}\n${method}\n${query}\n${params}\n${body}\n${headers}\n\n`;
 
       fs.appendFile('./src/common/logging.log', logging, err => {
         if (err) {
